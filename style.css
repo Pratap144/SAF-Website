@@ -1,4 +1,9 @@
-.IISER-img--container {
-  width: 1000px;
-  height: 500px;
+html,
+body {
+  /* TODO: need to change the cursor and it's size */
+  cursor: url("./assets/favicons/mouse-face.ico"), auto;
+}
+
+.IISER-img-container {
+  width: 800px;
 }
