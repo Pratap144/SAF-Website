@@ -18,19 +18,14 @@
   <body>
     <!-- navigation -->
 
-    <nav
-      class="navbar navbar-expand-lg p-3 bg-warning"
-      style="--bs-bg-opacity: 0.8"
-      id="headerNav"
-    >
+    <nav class="navbar sticky-top navbar-expand-lg p-3 yell" id="headerNav">
       <div class="container-fluid">
         <a
-          class="navbar-brand d-block d-lg-none"
+          class="navbar-brand d-block d-lg-none fw-bold"
           style="max-width: 70%"
           href="#"
         >
-          SMALL ANIMAL FACILITY <br />
-          @IISER-Kolkata
+          SAF @ IISER KOLKATA
         </a>
         <button
           class="navbar-toggler"
@@ -74,7 +69,7 @@
       </div>
     </nav>
 
-    <div class="container-fluid g-0">
+    <!-- <div class="container-fluid g-0 heroes">
       <picture>
         <img
           src="./assets/images/hero-mouse-2.png"
@@ -82,39 +77,161 @@
           alt="Welcome"
         />
       </picture>
+    </div> -->
+
+    <div class="container-fluid g-0 heroes">
+      <video
+        autoplay
+        loop
+        muted
+        src="assets/images/ANIMAL FACILiTY.mp4"
+      ></video>
     </div>
 
-    <h3 class="fs-1 mt-5 mb-4 text-black text-center text-uppercase">
-      About IISER Kolkata
-    </h3>
-    <div class="container mb-5">
-      <div class="d-flex g-1 gap-3">
-        <div class="IISER-img-container">
-          <picture>
-            <img
-              class="img-fluid"
-              src="./assets/images/IISER.jpeg"
-              alt="IISER Kolkata"
-            />
-          </picture>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-6 g-0">
+          <div class="d-flex flex-column">
+            <h3 class="fs-1 text-black text-uppercase">About IISER Kolkata</h3>
+            <div>
+              <div class="d-flex flex-column justify-content-center">
+                <p class="fs-5 mt-4 justified">
+                  The Indian Institute of Science Education Research (IISER)
+                  Kolkata was established in 2006 as an autonomous institute for
+                  higher education by the Ministry of Education, Government of
+                  India. The basic idea of IISER is to create research
+                  universities of the highest caliber in which teaching and
+                  education will be totally integrated with the state of the art
+                  research. IISER-K has a vibrant campus with strong faculty
+                  members of repute and a supportive non-teaching staff. The
+                  students pursuing various degrees are among the best in the
+                  country and thus far have established a commendable culture.
+                </p>
+                <div class="mb-4">
+                  <a
+                    class="btn btn-primary btn-lg fw-semibold rounded-pill px-4 yell"
+                    href="https://www.iiserkol.ac.in"
+                    role="button"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div style="width: 80%">
-          <p style="text-align: justify">
-            IISER-Kolkata was established in 2006 as autonomous institute for
-            higher education by the Ministry of Education, Government of India.
-            The basic idea of IISER is to create research Universities of the
-            highest caliber in which teaching and education will be totally
-            integrated with the state of the art research. IISER-K has a vibrant
-            campus with strong faculty members of repute and supportive
-            non-teaching staff members. The students pursuing various degrees
-            are among the best in the country and have established a commendable
-            culture.
-          </p>
+        <div class="col-lg-6 d-flex flex-column my-auto ps-lg-5 py-lg-5 g-0">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner car-sh">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img
+                  src="assets/images/IISER.jpg"
+                  class="d-block w-100"
+                  alt="IISER"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="assets/images/IISER 2.jpeg"
+                  class="d-block w-100"
+                  alt="IISER"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="assets/images/IISER 3.jpeg"
+                  class="d-block w-100"
+                  alt="IISER"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
 
-    <h3 class="fs-1 text-black text-center">OUR LATEST NEWS</h3>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column my-auto pe-lg-5 py-lg-5 g-0">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner car-sh-rev">
+              <div class="carousel-item active">
+                <img
+                  src="assets/images/mouse-raw.jpg"
+                  class="d-block w-100"
+                  alt="IISER"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 g-0">
+          <div class="d-flex flex-column">
+            <h3 class="fs-1 text-black text-uppercase text-end">
+              About Small Animal Facility
+            </h3>
+            <div>
+              <div class="d-flex flex-column justify-content-center">
+                <p class="fs-5 mt-4 justified">
+                  IISER Kolkata's Small Animal Facility (SAF) is registered by
+                  the “Committee for the Purpose of Control and Supervision of
+                  Experiments on Animals (CPCSEA)”, a body of the Government of
+                  India. The “Institutional Animal Ethics Committee (IAEC)”
+                  evaluates and approves all the conduct of animal experiments
+                  as per CPCSEA rules & regulations. The Animal facility,
+                  facilitates animal research of immune-competence and
+                  suppressive small animals under a well established “Animal
+                  Bio-Safety Level 2 (ABSL2)” state of the art facility. The
+                  facility is well equipped with modern instruments as per
+                  scientific standards, and houses a well trained technical
+                  staff & various scientific teams.
+                </p>
+                <!-- <div class="mb-4">
+                  <a
+                    class="btn btn-primary btn-lg fw-semibold rounded-pill px-4 yell"
+                    href="https://www.iiserkol.ac.in"
+                    role="button"
+                    >Learn More</a
+                  >
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <h3 class="fs-1 text-black text-center">OUR LATEST NEWS</h3>
     <div class="container">
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
@@ -207,7 +324,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- footer -->
 
