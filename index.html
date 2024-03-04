@@ -69,7 +69,7 @@
       </div>
     </nav>
 
-    <!-- <div class="container-fluid g-0 heroes">
+    <!-- <section class="container-fluid g-0 heroes">
       <picture>
         <img
           src="./assets/images/hero-mouse-2.png"
@@ -77,49 +77,54 @@
           alt="Welcome"
         />
       </picture>
-    </div> -->
+    </section> -->
 
-    <div class="container-fluid g-0 heroes">
+    <!-- <section class="container-fluid g-0 hero-section">
       <video
         autoplay
         loop
         muted
         src="assets/images/ANIMAL FACILiTY.mp4"
       ></video>
-    </div>
+    </section> -->
 
-    <div class="container my-5">
+    <section class="container-fluid g-0 hero-section">
+      <video autoplay loop muted src="assets/images/SAF.mp4"></video>
+    </section>
+
+    <section class="container mt-5">
       <div class="row">
-        <div class="col-lg-6 g-0">
-          <div class="d-flex flex-column">
-            <h3 class="fs-1 text-black text-uppercase">About IISER Kolkata</h3>
+        <div
+          class="col-lg-6 g-0 d-flex flex-column flex-wrap justify-content-center"
+        >
+          <div
+            class="d-flex flex-column flex-wrap justify-content-center p-lg-5"
+          >
+            <h4 class="fs-1 text-black text-uppercase">About IISER Kolkata</h4>
+            <p class="fs-6 mt-4 justified">
+              The Indian Institute of Science Education Research (IISER) Kolkata
+              was established in 2006 as an autonomous institute for higher
+              education by the Ministry of Education, Government of India. The
+              basic idea of IISER is to create research universities of the
+              highest caliber in which teaching and education will be totally
+              integrated with the state of the art research. IISER-K has a
+              vibrant campus with strong faculty members of repute and a
+              supportive non-teaching staff. The students pursuing various
+              degrees are among the best in the country and thus far have
+              established a commendable culture.
+            </p>
             <div>
-              <div class="d-flex flex-column justify-content-center">
-                <p class="fs-5 mt-4 justified">
-                  The Indian Institute of Science Education Research (IISER)
-                  Kolkata was established in 2006 as an autonomous institute for
-                  higher education by the Ministry of Education, Government of
-                  India. The basic idea of IISER is to create research
-                  universities of the highest caliber in which teaching and
-                  education will be totally integrated with the state of the art
-                  research. IISER-K has a vibrant campus with strong faculty
-                  members of repute and a supportive non-teaching staff. The
-                  students pursuing various degrees are among the best in the
-                  country and thus far have established a commendable culture.
-                </p>
-                <div class="mb-4">
-                  <a
-                    class="btn btn-primary btn-lg fw-semibold rounded-pill px-4 yell"
-                    href="https://www.iiserkol.ac.in"
-                    role="button"
-                    >Learn More</a
-                  >
-                </div>
-              </div>
+              <a
+                class="btn btn-primary fw-semibold rounded-pill px-4 yell"
+                style="--bs-btn-font-size: 1rem"
+                href="https://www.iiserkol.ac.in"
+                role="button"
+                >Learn More</a
+              >
             </div>
           </div>
         </div>
-        <div class="col-lg-6 d-flex flex-column my-auto ps-lg-5 py-lg-5 g-0">
+        <div class="col-lg-6 g-0 d-flex flex-column my-auto ps-lg-5 p-lg-5">
           <div
             id="carouselExampleInterval"
             class="carousel slide"
@@ -128,21 +133,24 @@
             <div class="carousel-inner car-sh">
               <div class="carousel-item active" data-bs-interval="3000">
                 <img
-                  src="assets/images/IISER.jpg"
+                  src="assets/images/IISER-2.jpeg"
                   class="d-block w-100"
                   alt="IISER"
                 />
               </div>
               <div class="carousel-item" data-bs-interval="3000">
                 <img
-                  src="assets/images/IISER 2.jpeg"
+                  src="assets/images/IISER-3.jpeg"
                   class="d-block w-100"
                   alt="IISER"
                 />
               </div>
-              <div class="carousel-item" data-bs-interval="3000">
+              <div
+                class="carousel-item overflow-hidden"
+                data-bs-interval="3000"
+              >
                 <img
-                  src="assets/images/IISER 3.jpeg"
+                  src="assets/images/IISER-4.jpeg"
                   class="d-block w-100"
                   alt="IISER"
                 />
@@ -175,11 +183,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="container my-5">
+    <section class="container my-5">
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column my-auto pe-lg-5 py-lg-5 g-0">
+        <div class="col-lg-6 g-0 d-flex flex-column my-auto pe-lg-5 p-lg-5">
           <div
             id="carouselExampleInterval"
             class="carousel slide"
@@ -196,135 +204,170 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 g-0">
-          <div class="d-flex flex-column">
-            <h3 class="fs-1 text-black text-uppercase text-end">
-              About Small Animal Facility
-            </h3>
-            <div>
-              <div class="d-flex flex-column justify-content-center">
-                <p class="fs-5 mt-4 justified">
-                  IISER Kolkata's Small Animal Facility (SAF) is registered by
-                  the “Committee for the Purpose of Control and Supervision of
-                  Experiments on Animals (CPCSEA)”, a body of the Government of
-                  India. The “Institutional Animal Ethics Committee (IAEC)”
-                  evaluates and approves all the conduct of animal experiments
-                  as per CPCSEA rules & regulations. The Animal facility,
-                  facilitates animal research of immune-competence and
-                  suppressive small animals under a well established “Animal
-                  Bio-Safety Level 2 (ABSL2)” state of the art facility. The
-                  facility is well equipped with modern instruments as per
-                  scientific standards, and houses a well trained technical
-                  staff & various scientific teams.
-                </p>
-                <!-- <div class="mb-4">
-                  <a
-                    class="btn btn-primary btn-lg fw-semibold rounded-pill px-4 yell"
-                    href="https://www.iiserkol.ac.in"
-                    role="button"
-                    >Learn More</a
-                  >
-                </div> -->
+        <div
+          class="col-lg-6 g-0 d-flex flex-column flex-wrap justify-content-center p-lg-5"
+        >
+          <div class="d-flex flex-column justify-content-center">
+            <h4 class="fs-1 text-black text-uppercase">
+              Small Animal Facility
+            </h4>
+            <p class="fs-6 mt-4 justified">
+              IISER Kolkata's Small Animal Facility (SAF) is registered by the
+              “Committee for the Purpose of Control and Supervision of
+              Experiments on Animals (CPCSEA)”, a body of the Government of
+              India. The “Institutional Animal Ethics Committee (IAEC)”
+              evaluates and approves all the conduct of animal experiments as
+              per CPCSEA rules & regulations. The Animal facility, facilitates
+              animal research of immune-competence and suppressive small animals
+              under a well established “Animal Bio-Safety Level 2 (ABSL2)” state
+              of the art facility. The facility is well equipped with modern
+              instruments as per scientific standards, and houses a well trained
+              technical staff & various scientific teams.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="container-fluid g-0">
+      <picture>
+        <img
+          src="./assets/images/mouse-raw-cropped.jpg"
+          class="img-fluid"
+          alt="Mouse image"
+        />
+      </picture>
+    </section> -->
+
+    <section class="container g-0 mt-5">
+      <div class="row p-lg-5">
+        <h3 class="fs-1 text-black text-center text-uppercase">
+          About the workshop
+        </h3>
+        <p class="justified">
+          Our workshop is aimed at providing hands-on training to young students
+          and researchers in “handling small animals (mice), ethics, the basics
+          of animal house management, different research methodologies for
+          animal research, and future perspectives on inter-disciplinary and
+          multi-disciplinary research opportunities." In addition, the workshop
+          also aims to put forward an effort to minimise the gap between
+          inter-disciplinary and multi-disciplinary research opportunities for
+          the well-being of humankind. Participation will enhance knowledge of
+          science and contribute to developing multi-dimensional research ideas
+          and opportunities. Participants with a certificate of participation
+          can add to their skills, which can boost their openness and
+          opportunities abroad for higher studies.
+        </p>
+        <picture>
+          <img
+            src="./assets/images/collage.jpg"
+            class="img-fluid"
+            alt="Mouse image"
+          />
+        </picture>
+        <div class="accordion" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Module #1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                1) Laboratory Animal Handling (Mice), 2) Care, 3) Ethics, 4)
+                Basics of Animal House Maintenance & Management , 5) ABSL2
+                Facility Access & Training , 6) Various Animal Models 7) General
+                Anatomy (Demonstration) & Physiology (Theory) 8) Anesthesia 9)
+                Euthanasia 10) Dissection (Mice), 11) Instrumentation
+                (Demonstration & Access).
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Module #2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                1) Histopathology (Theory), 2) Histopathology Instruments
+                (Access), 3) Dissection (mice) , 4) Tissue Harvesting, 5) Tissue
+                Processing , 6) Tissue Molding 7) Tissue Sectioning 8) Tissue
+                Staining (H& E, LFB, IHC & Western Blot), 9) RNA isolation, 10)
+                Protein Isolation & Quantification.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Module #3
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                1) Tissue Harvesting), 2) RNA Extraction, 3) Real Time PCR, 4)
+                RT PCR, 5) Genotyping, 6) Western Blot , 7) IHC, 8) Flow
+                Cytometry, 9) Microscopy, 10) In-vivo Imaging.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                Module #4
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti, corrupti? Id, rem? Quos, architecto ea. Libero magni
+                autem consectetur, dolore doloremque dignissimos neque officia
+                eligendi vero eveniet quod at quos deleniti soluta cumque
+                deserunt rem non numquam atque. Accusantium amet saepe doloribus
+                sed odio. Accusantium nulla reiciendis labore ipsum atque
+                assumenda! Illo, corporis ratione laboriosam quibusdam dicta
+                suscipit libero eveniet! Porro, consectetur aut dicta odio est
+                non totam facere excepturi magni culpa dolores itaque incidunt
+                mollitia praesentium vel reiciendis recusandae possimus ducimus.
+                Dolor, amet nam hic obcaecati labore pariatur sequi mollitia
+                adipisci blanditiis ea molestiae expedita quo vero, officia
+                quae.
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- <h3 class="fs-1 text-black text-center">OUR LATEST NEWS</h3>
-    <div class="container">
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseOne"
-              aria-expanded="false"
-              aria-controls="flush-collapseOne"
-            >
-              Module #1
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse">
-            <div class="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              first item's accordion body.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseTwo"
-              aria-expanded="false"
-              aria-controls="flush-collapseTwo"
-            >
-              Module #2
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse">
-            <div class="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              second item's accordion body. Let's imagine this being filled with
-              some actual content.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree"
-              aria-expanded="false"
-              aria-controls="flush-collapseThree"
-            >
-              Module #3
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse">
-            <div class="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              second item's accordion body. Let's imagine this being filled with
-              some actual content.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseFour"
-              aria-expanded="false"
-              aria-controls="flush-collapseFour"
-            >
-              Module #4
-            </button>
-          </h2>
-          <div id="flush-collapseFour" class="accordion-collapse collapse">
-            <div class="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              third item's accordion body. Nothing more exciting happening here
-              in terms of content, but just filling up the space to make it
-              look, at least at first glance, a bit more representative of how
-              this would look in a real-world application.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
+    </section>
 
     <!-- footer -->
 
