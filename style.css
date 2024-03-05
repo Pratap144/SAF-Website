@@ -7,14 +7,14 @@
 
 :root {
   --bs-primary-color: #ffcc00;
-  --bs-secondary-color: #ffffff;
+  /* --bs-secondary-color: #ffffff; */
   --bs-tertiary-color: #000000;
 }
 
 html,
 body {
   /* TODO: need to change the cursor and it's size */
-  cursor: url("./assets/favicons/mouse-face.ico"), auto;
+  /* cursor: url("./assets/favicons/mouse-face.ico"), auto; */
   scroll-behavior: smooth;
 }
 
