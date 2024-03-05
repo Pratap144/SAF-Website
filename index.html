@@ -16,328 +16,345 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- N A V B A R -->
+    <div id="root">
+      <!-- N A V B A R -->
 
-    <nav class="navbar sticky-top navbar-expand-lg p-lg-3 yell" id="headerNav">
-      <div class="container-fluid">
-        <a
-          class="navbar-brand d-block d-lg-none fw-md-bold"
-          style="max-width: 70%"
-          href="#"
-        >
-          Small Animal Facility
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link mx-2 active" aria-current="page" href="#"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="#">Schedule</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="#">Program</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="#">Registration</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="./pages/contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- H E R O -->
-
-    <section class="container-fluid g-0 hero-section">
-      <video autoplay loop muted src="assets/images/SAF.mp4"></video>
-    </section>
-
-    <!-- A B O U T   I I S E R   K O L K A T A -->
-
-    <section class="container mt-3">
-      <div class="row">
-        <div
-          class="col-lg-6 g-0 d-flex flex-column flex-wrap justify-content-center"
-        >
-          <div
-            class="container mt-3 d-flex flex-column flex-wrap justify-content-center p-lg-5"
+      <nav
+        class="navbar sticky-top navbar-expand-lg p-lg-3 yell"
+        id="headerNav"
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand d-block d-lg-none fw-md-bold"
+            style="max-width: 70%"
+            href="#"
           >
-            <h4 class="fs-4 text-black text-center text-uppercase">
-              About IISER Kolkata
-            </h4>
-            <p style="text-align: justify">
-              The Indian Institute of Science Education Research (IISER) Kolkata
-              was established in 2006 as an autonomous institute for higher
-              education by the Ministry of Education, Government of India. The
-              basic idea of IISER is to create research universities of the
-              highest caliber in which teaching and education will be totally
-              integrated with the state of the art research. IISER-K has a
-              vibrant campus with strong faculty members of repute and a
-              supportive non-teaching staff. The students pursuing various
-              degrees are among the best in the country and thus far have
-              established a commendable culture.
-            </p>
-            <a
-              class="btn btn-primary fw-semibold rounded-pill px-4 my-4 yell"
-              style="--bs-btn-font-size: 1rem"
-              href="https://www.iiserkol.ac.in"
-              role="button"
-              >Learn More</a
-            >
-          </div>
-        </div>
-        <div class="col-lg-6 g-0 d-flex flex-column my-auto ps-lg-5 p-lg-5">
-          <div
-            id="carouselExampleInterval"
-            class="conatiner px-3 carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner car-sh">
-              <div class="carousel-item active" data-bs-interval="3000">
-                <img
-                  src="assets/images/IISER-2.jpeg"
-                  class="d-block img-fluid"
-                  alt="IISER"
-                />
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img
-                  src="assets/images/IISER-3.jpeg"
-                  class="d-block img-fluid"
-                  alt="IISER"
-                />
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img
-                  src="assets/images/IISER-4.jpeg"
-                  class="d-block img-fluid"
-                  alt="IISER"
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleInterval"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleInterval"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- A B O U T   S A F -->
-    <section class="container my-5">
-      <div class="row">
-        <div class="col-lg-6 g-0 d-flex flex-column my-auto pe-lg-5 p-lg-5">
-          <div
-            id="carouselExampleInterval"
-            class="px-3 carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner car-sh">
-              <div class="carousel-item active">
-                <img
-                  src="assets/images/mouse-raw.jpg"
-                  class="d-block img-fluid"
-                  alt="IISER"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-lg-6 g-0 d-flex flex-column flex-wrap justify-content-center p-lg-5"
-        >
-          <div class="container mt-5 d-flex flex-column justify-content-center">
-            <h4 class="fs-4 text-black text-center text-uppercase">
-              Small Animal Facility
-            </h4>
-            <p style="text-align: justify">
-              IISER Kolkata's Small Animal Facility (SAF) is registered by the
-              "Committee for the Purpose of Control and Supervision of
-              Experiments on Animals (CPCSEA)”, a body of the Government of
-              India. The “Institutional Animal Ethics Committee (IAEC)"
-              evaluates and approves all the conduct of animal experiments as
-              per CPCSEA rules & regulations. The Animal facility, facilitates
-              animal research of immune-competence and suppressive small animals
-              under a well established "Animal Bio-Safety Level 2 (ABSL2)" state
-              of the art facility. The facility is well equipped with modern
-              instruments as per scientific standards, and houses a well trained
-              technical staff & various scientific teams.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- A B O U T   T H E   W O R K S H O P -->
-
-    <section class="container mt-3">
-      <h4 class="fs-4 text-black text-center text-uppercase">
-        About the workshop
-      </h4>
-      <p style="text-align: justify">
-        Our workshop is aimed at providing hands-on training to young students
-        and researchers in “handling small animals (mice), ethics, the basics of
-        animal house management, different research methodologies for animal
-        research, and future perspectives on inter-disciplinary and
-        multi-disciplinary research opportunities." In addition, the workshop
-        also aims to put forward an effort to minimise the gap between
-        inter-disciplinary and multi-disciplinary research opportunities for the
-        well-being of humankind. Participation will enhance knowledge of science
-        and contribute to developing multi-dimensional research ideas and
-        opportunities. Participants with a certificate of participation can add
-        to their skills, which can boost their openness and opportunities abroad
-        for higher studies.
-      </p>
-      <picture>
-        <img
-          src="./assets/images/collage.jpg"
-          class="img-fluid"
-          alt="Mouse image"
-        />
-      </picture>
-      <br />
-      <!-- Nav tabs -->
-      <ul class="nav nav-tabs mt-3" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" data-bs-toggle="tab" href="#module1">
-            Module 1
+            Small Animal Facility
           </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="tab" href="#module2">Module 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="tab" href="#module3">Module 3</a>
-        </li>
-      </ul>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <!-- Tab panes -->
-      <div class="tab-content">
-        <div id="module1" class="container tab-pane active">
-          <br />
-          <h3>Module 1</h3>
-          <ol>
-            <li>Laboratory Animal Handling (Mice)</li>
-            <li>Care</li>
-            <li>Ethics</li>
-            <li>Basics of Animal House Maintenance & Management</li>
-            <li>ABSL2</li>
-            <li>Facility Access & Training</li>
-            <li>Various Animal Models</li>
-            <li>General Anatomy (Demonstration) & Physiology (Theory)</li>
-            <li>Anesthesia</li>
-            <li>Euthanasia</li>
-            <li>Dissection (Mice)</li>
-            <li>Instrumentation (Demonstration & Access)</li>
-          </ol>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-2 active" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Program</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Registration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="./pages/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div id="module2" class="container tab-pane fade">
-          <br />
-          <h3>Module 2</h3>
-          <ol>
-            <li>Histopathology (Theory)</li>
-            <li>Histopathology Instruments (Access)</li>
-            <li>Dissection (mice)</li>
-            <li>Tissue Harvesting</li>
-            <li>Tissue Processing</li>
-            <li>Tissue Molding</li>
-            <li>Tissue Sectioning</li>
-            <li>Tissue Staining (H& E, LFB, IHC & Western Blot)</li>
-            <li>RNA isolation</li>
-            <li>Protein Isolation & Quantification</li>
-          </ol>
-        </div>
-        <div id="module3" class="container tab-pane fade">
-          <br />
-          <h3>Module 3</h3>
-          <ol>
-            <li>Tissue Harvesting</li>
-            <li>RNA Extraction</li>
-            <li>Real Time PCR</li>
-            <li>RT PCR</li>
-            <li>Genotyping</li>
-            <li>Western Blot</li>
-            <li>IHC</li>
-            <li>Flow Cytometry</li>
-            <li>Microscopy</li>
-            <li>In-vivo Imaging</li>
-          </ol>
-        </div>
-      </div>
-    </section>
+      </nav>
 
-    <!-- F O O T E R -->
+      <!-- H E R O -->
 
-    <footer class="container py-3 my-4">
-      <ul class="nav justify-content-center pb-3 mb-3">
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">Schedule</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">Program</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">Registration</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">Contact</a>
-        </li>
-      </ul>
-      <hr />
-      <p class="text-center text-muted">
-        © 2024 SAF IISER Kolkata • Web Designed by DesignDistrict.in
-      </p>
-    </footer>
+      <section class="container-fluid g-0 hero-section">
+        <video autoplay loop muted src="assets/images/SAF.mp4"></video>
+      </section>
+
+      <!-- A B O U T   I I S E R   K O L K A T A -->
+
+      <section class="container mt-3">
+        <div class="row">
+          <div
+            class="col-lg-6 g-0 d-flex flex-column flex-wrap justify-content-center"
+          >
+            <div
+              class="container mt-3 d-flex flex-column flex-wrap justify-content-center p-lg-5"
+            >
+              <h4 class="fs-4 text-black text-center text-uppercase">
+                About IISER Kolkata
+              </h4>
+              <p style="text-align: justify">
+                The Indian Institute of Science Education Research (IISER)
+                Kolkata was established in 2006 as an autonomous institute for
+                higher education by the Ministry of Education, Government of
+                India. The basic idea of IISER is to create research
+                universities of the highest caliber in which teaching and
+                education will be totally integrated with the state of the art
+                research. IISER-K has a vibrant campus with strong faculty
+                members of repute and a supportive non-teaching staff. The
+                students pursuing various degrees are among the best in the
+                country and thus far have established a commendable culture.
+              </p>
+              <a
+                class="btn btn-primary fw-semibold rounded-pill px-4 my-4 yell"
+                style="--bs-btn-font-size: 1rem"
+                href="https://www.iiserkol.ac.in"
+                role="button"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6 g-0 d-flex flex-column my-auto ps-lg-5 p-lg-5">
+            <div
+              id="carouselExampleInterval"
+              class="conatiner px-3 carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner car-sh">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="assets/images/IISER-2.jpeg"
+                    class="d-block img-fluid"
+                    alt="IISER"
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="assets/images/IISER-3.jpeg"
+                    class="d-block img-fluid"
+                    alt="IISER"
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="assets/images/IISER-4.jpeg"
+                    class="d-block img-fluid"
+                    alt="IISER"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- A B O U T   S A F -->
+
+      <section class="container my-5">
+        <div class="row">
+          <div class="col-lg-6 g-0 d-flex flex-column my-auto pe-lg-5 p-lg-5">
+            <div
+              id="carouselExampleInterval"
+              class="px-3 carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner car-sh">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/mouse-raw.jpg"
+                    class="d-block img-fluid"
+                    alt="IISER"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 g-0 d-flex flex-column flex-wrap justify-content-center p-lg-5"
+          >
+            <div
+              class="container mt-5 d-flex flex-column justify-content-center"
+            >
+              <h4 class="fs-4 text-black text-center text-uppercase">
+                Small Animal Facility
+              </h4>
+              <p style="text-align: justify">
+                IISER Kolkata's Small Animal Facility (SAF) is registered by the
+                "Committee for the Purpose of Control and Supervision of
+                Experiments on Animals (CPCSEA)”, a body of the Government of
+                India. The “Institutional Animal Ethics Committee (IAEC)"
+                evaluates and approves all the conduct of animal experiments as
+                per CPCSEA rules & regulations. The Animal facility, facilitates
+                animal research of immune-competence and suppressive small
+                animals under a well established "Animal Bio-Safety Level 2
+                (ABSL2)" state of the art facility. The facility is well
+                equipped with modern instruments as per scientific standards,
+                and houses a well trained technical staff & various scientific
+                teams.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- A B O U T   T H E   W O R K S H O P -->
+
+      <section class="container mt-3">
+        <h4 class="fs-4 text-black text-center text-uppercase">
+          About the workshop
+        </h4>
+        <p style="text-align: justify">
+          Our workshop is aimed at providing hands-on training to young students
+          and researchers in “handling small animals (mice), ethics, the basics
+          of animal house management, different research methodologies for
+          animal research, and future perspectives on inter-disciplinary and
+          multi-disciplinary research opportunities." In addition, the workshop
+          also aims to put forward an effort to minimise the gap between
+          inter-disciplinary and multi-disciplinary research opportunities for
+          the well-being of humankind. Participation will enhance knowledge of
+          science and contribute to developing multi-dimensional research ideas
+          and opportunities. Participants with a certificate of participation
+          can add to their skills, which can boost their openness and
+          opportunities abroad for higher studies.
+        </p>
+        <picture>
+          <img
+            src="./assets/images/collage.jpg"
+            class="img-fluid"
+            alt="Mouse image"
+          />
+        </picture>
+        <br />
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs mt-3" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#module1">
+              Module 1
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#module2">
+              Module 2
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#module3">
+              Module 3
+            </a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="module1" class="container tab-pane active">
+            <br />
+            <h3>Module 1</h3>
+            <ol>
+              <li>Laboratory Animal Handling (Mice)</li>
+              <li>Care</li>
+              <li>Ethics</li>
+              <li>Basics of Animal House Maintenance & Management</li>
+              <li>ABSL2</li>
+              <li>Facility Access & Training</li>
+              <li>Various Animal Models</li>
+              <li>General Anatomy (Demonstration) & Physiology (Theory)</li>
+              <li>Anesthesia</li>
+              <li>Euthanasia</li>
+              <li>Dissection (Mice)</li>
+              <li>Instrumentation (Demonstration & Access)</li>
+            </ol>
+          </div>
+          <div id="module2" class="container tab-pane fade">
+            <br />
+            <h3>Module 2</h3>
+            <ol>
+              <li>Histopathology (Theory)</li>
+              <li>Histopathology Instruments (Access)</li>
+              <li>Dissection (mice)</li>
+              <li>Tissue Harvesting</li>
+              <li>Tissue Processing</li>
+              <li>Tissue Molding</li>
+              <li>Tissue Sectioning</li>
+              <li>Tissue Staining (H& E, LFB, IHC & Western Blot)</li>
+              <li>RNA isolation</li>
+              <li>Protein Isolation & Quantification</li>
+            </ol>
+          </div>
+          <div id="module3" class="container tab-pane fade">
+            <br />
+            <h3>Module 3</h3>
+            <ol>
+              <li>Tissue Harvesting</li>
+              <li>RNA Extraction</li>
+              <li>Real Time PCR</li>
+              <li>RT PCR</li>
+              <li>Genotyping</li>
+              <li>Western Blot</li>
+              <li>IHC</li>
+              <li>Flow Cytometry</li>
+              <li>Microscopy</li>
+              <li>In-vivo Imaging</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- S C H E D U L E -->
+
+      <!-- C O N T A C T -->
+
+      <!-- F O O T E R -->
+
+      <footer class="container py-3 my-4">
+        <ul class="nav justify-content-center pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Program</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Registration</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Contact</a>
+          </li>
+        </ul>
+        <hr />
+        <p class="text-center text-muted">
+          © 2024 SAF IISER Kolkata • Web Designed by DesignDistrict.in
+        </p>
+      </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
