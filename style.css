@@ -28,11 +28,11 @@ body {
   height: 91vh;
 } */
 
-/* .hero-section {
-  height: 91vh;
+.hero-section {
+  height: 100vh;
 }
 
-.hero-section video {
+/* .hero-section video {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -45,8 +45,6 @@ body {
 .yell {
   background-color: var(--bs-primary-color);
   color: #000000;
-  border: 2px solid #ffcc00;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .btn:hover {
@@ -94,3 +92,69 @@ body {
   border: 4px solid red;
   overflow: hidden;
 } */
+
+/* P R E L O A D E R */
+#preloader {
+  background: #ffffff;
+  cursor: wait;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  opacity: 1;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  transition: all 1s linear 0.5s;
+  width: 100%;
+  z-index: 99999;
+}
+
+#preloader img {
+  width: 20vw;
+  margin: 1rem auto;
+}
+
+.suggestion {
+  font-size: 2rem;
+  color: #666;
+  font-weight: lighter;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 980px) {
+  #preloader img {
+    width: 50vw;
+  }
+
+  #preloader {
+    font-size: 2rem;
+  }
+
+  .suggestion {
+    visibility: visible;
+  }
+}
+
+::selection {
+  color: #000000;
+  background-color: #ffcc00;
+}
+
+.unSelectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.noScroll {
+  overflow: hidden;
+}
+
+/* - P R E L O A D E R */
