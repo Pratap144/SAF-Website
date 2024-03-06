@@ -47,12 +47,12 @@ body {
   color: #000000;
 }
 
-.btn:hover {
+/* .btn:hover {
   background-color: var(--bs-primary-color);
   color: var(--bs-tertiary-color);
   border: 2px solid var(--bs-tertiary-color);
   transition: border 0.3s;
-}
+} */
 
 .IISER-img-container {
   width: 100%;
@@ -75,16 +75,28 @@ body {
   font-weight: bold;
 }
 
-.justified {
-  text-align: justify;
-}
-
-.nav-item:hover {
+.navBarColor:hover {
   border-radius: 50px;
   background-color: var(--bs-secondary-color);
   color: var(--bs-tertiary-color);
   transition: background-color 0.3s linear;
 }
+
+.justified {
+  text-align: justify;
+}
+
+.activePage {
+  border-radius: 50px;
+  background-color: var(--bs-secondary-color);
+}
+
+/* .nav-item:hover {
+  border-radius: 50px;
+  background-color: var(--bs-secondary-color);
+  color: var(--bs-tertiary-color);
+  transition: background-color 0.3s linear;
+} */
 
 /* .heroes {
   width: 100%;
