@@ -23,10 +23,20 @@
   <body onload="preload()" class="noScroll">
     <!-- P R E L O A D E R -->
 
-    <div id="preloader" title="Loading...">
-      <img src="../assets/images/mickey-mouse-loader.gif" alt="Loading..." />
+    <div id="preloader" class="text-black-50" title="Loading...">
+      <img
+        src="../assets/images/ham-wheel.gif"
+        alt="Loading..."
+        style="
+          -moz-transform: scale(-1, 1);
+          -o-transform: scale(-1, 1);
+          -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+        "
+      />
       Loading...
     </div>
+
     <!-- N A V B A R -->
 
     <nav class="navbar sticky-top navbar-expand-lg p-3 yell" id="headerNav">
@@ -34,7 +44,7 @@
         <a
           class="navbar-brand d-block d-lg-none fw-bold"
           style="max-width: 70%"
-          href="#"
+          href="../index.html"
         >
           Small Animal Facility
         </a>
@@ -76,10 +86,10 @@
       </div>
     </nav>
 
-    <section class="container p-lg-5 mt-5">
+    <!-- <section class="container p-lg-5 mt-5">
       <div class="row">
         <div
-          class="col-lg-5 g-0 px-2 d-flex flex-column flex-wrap justify-content-center"
+          class="col-lg-6 g-0 px-lg-3 d-flex flex-column flex-wrap justify-content-center"
         >
           <div
             class="card bg-transparent"
@@ -114,7 +124,7 @@
           </div>
         </div>
 
-        <div class="col-lg-7 d-flex flex-column my-auto p-lg-5">
+        <div class="col-lg-6 d-flex flex-column my-auto p-lg-3">
           <div class="ratio ratio-4x3">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSdLg9zW-cHvIKF7sl6WvfrraFYzZpUk6qgh47mkfRGl5n1nYQ/viewform?embedded=true"
@@ -123,11 +133,54 @@
               frameborder="0"
               marginheight="0"
               marginwidth="0"
-              >Loading…</iframe
             >
+              Loading…
+            </iframe>
           </div>
         </div>
       </div>
+    </section> -->
+
+    <section class="container mt-3 d-lg-flex gap-5">
+      <div
+        class="card bg-transparent align-self-center w-100 mb-3"
+        style="
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+            rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        "
+      >
+        <h4 class="card-header">Supervisor</h4>
+        <div class="card-body">
+          <h5 class="card-title">Prof. Jayasri Das Sarma</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            animalfacility@iiserkol.ac.in
+          </h6>
+          <p class="card-text">
+            Small Animal Facility, Indian Institute of Science Education And
+            Research (IISER) Kolkata, Mohanpur, West Bengal - 741246, India.
+          </p>
+          <a href="#" class="card-link"><i class="fa-solid fa-envelope"></i></a>
+          <a href="#" class="card-link"
+            ><i class="fa-brands fa-google-scholar"></i
+          ></a>
+          <a href="#" class="card-link"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="#" class="card-link"
+            ><i class="fa-brands fa-square-x-twitter"></i
+          ></a>
+        </div>
+      </div>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdLg9zW-cHvIKF7sl6WvfrraFYzZpUk6qgh47mkfRGl5n1nYQ/viewform?embedded=true"
+        width="100%"
+        height="500px"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      >
+        Loading…
+      </iframe>
     </section>
 
     <section class="container p-lg-5">

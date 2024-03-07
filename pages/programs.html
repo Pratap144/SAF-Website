@@ -18,10 +18,20 @@
   <body onload="preload()" class="noScroll">
     <!-- P R E L O A D E R -->
 
-    <div id="preloader" title="Loading...">
-      <img src="../assets/images/mickey-mouse-loader.gif" alt="Loading..." />
+    <div id="preloader" class="text-black-50" title="Loading...">
+      <img
+        src="../assets/images/ham-wheel.gif"
+        alt="Loading..."
+        style="
+          -moz-transform: scale(-1, 1);
+          -o-transform: scale(-1, 1);
+          -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+        "
+      />
       Loading...
     </div>
+
     <!-- N A V B A R -->
 
     <nav class="navbar sticky-top navbar-expand-lg p-3 yell" id="headerNav">
@@ -29,7 +39,7 @@
         <a
           class="navbar-brand d-block d-lg-none fw-bold"
           style="max-width: 70%"
-          href="#"
+          href="../index.html"
         >
           Small Animal Facility
         </a>
@@ -48,12 +58,12 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item navHover">
-              <a class="nav-link mx-2" aria-current="page" href="../index.html"> Home </a>
+              <a class="nav-link mx-2" aria-current="page" href="../index.html">
+                Home
+              </a>
             </li>
             <li class="nav-item navHover active activePage">
-              <a class="nav-link mx-2" href="./programs.html">
-                Programs
-              </a>
+              <a class="nav-link mx-2" href="./programs.html"> Programs </a>
             </li>
             <li class="nav-item navHover">
               <a class="nav-link mx-2" href="./registration.html">
