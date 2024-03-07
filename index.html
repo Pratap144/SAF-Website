@@ -53,24 +53,24 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav nav-pills nav-justified mx-auto">
-              <li class="nav-item">
-                <a class="nav-link mx-2 active" aria-current="page" href="#"
-                  >Home</a
-                >
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item navHover active activePage">
+                <a class="nav-link mx-2" aria-current="page" href="#"> Home </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2" href="./pages/programs.html">Programs</a>
+              <li class="nav-item navHover">
+                <a class="nav-link mx-2" href="./pages/programs.html">
+                  Programs
+                </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2" href="./pages/registration.html"
-                  >Registration</a
-                >
+              <li class="nav-item navHover">
+                <a class="nav-link mx-2" href="./pages/registration.html">
+                  Registration
+                </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link mx-2" href="#">Gallery</a>
+              <li class="nav-item navHover">
+                <a class="nav-link mx-2" href="./pages/gallery.html">Gallery</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item navHover">
                 <a class="nav-link mx-2" href="./pages/contact.html">Contact</a>
               </li>
             </ul>
@@ -80,8 +80,30 @@
 
       <!-- H E R O -->
 
-      <section class="container-fluid g-0 hero-section">
+      <section
+        class="container-fluid g-0 hero-section"
+        style="position: relative"
+      >
         <video autoplay loop muted src="assets/images/SAF.mp4"></video>
+        <!-- <div
+          style="
+            position: absolute;
+            left: 10%;
+            top: 10%;
+            font-size: 4rem;
+            color: var(--primary-color);
+            font-weight: bold;
+          "
+        >
+          Welocme to the
+          <span style="background-color: black"
+            >&nbsp; Animal Facility &nbsp;</span
+          >
+          of
+          <span style="background-color: black"
+            >&nbsp; IISER Kolkata &nbsp;</span
+          >
+        </div> -->
       </section>
 
       <!-- A B O U T   I I S E R   K O L K A T A -->
@@ -110,8 +132,7 @@
                 country and thus far have established a commendable culture.
               </p>
               <a
-                class="btn btn-primary fw-semibold rounded-pill px-4 my-4 yell"
-                style="--bs-btn-font-size: 1rem"
+                class="btn fw-semibold rounded-pill py-1 my-4 shadow yellBtn"
                 href="https://www.iiserkol.ac.in"
                 role="button"
                 >Learn More</a
@@ -179,8 +200,8 @@
       <!-- A B O U T   S A F -->
 
       <section class="container my-5">
-        <div class="row">
-          <div class="col-lg-6 g-0 d-flex flex-column my-auto pe-lg-5 p-lg-5">
+        <div class="row d-flex flex-column-reverse flex-lg-row">
+          <div class="col-lg-6 g-0 my-lg-auto my-5 pe-lg-5 p-lg-5">
             <div
               id="carouselExampleInterval"
               class="px-3 carousel slide"
