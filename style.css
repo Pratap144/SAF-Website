@@ -162,8 +162,15 @@ body {
 .activePage {
   border-radius: 50px;
   background-color: var(--secondary-color);
+  color: var(--tertiary-color);
   margin: 0 8px;
 }
+
+/* .accord-clr:active {
+  color: var(--primary-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+} */
 
 /* .nav-item:hover {
   border-radius: 50px;

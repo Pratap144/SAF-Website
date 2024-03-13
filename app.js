@@ -38,28 +38,56 @@ gsap.to('.container-scroll-1', {
 
 gsap.from('.container-scroll-2', {
   x: 0,
-  y: 0,
+  y: 50,
   opacity: 0,
   scrollTrigger: {
       trigger: '.container-scroll-1',
       Scroller: 'body',
       start: 'center center',
       end: 'bottom center',
-      markers: true,
+      // markers: true,
       scrub: 2
   }
 })
 
 gsap.from('.container-scroll-3', {
   x: 0,
-  y: 0,
+  y: 50,
   opacity: 0,
   scrollTrigger: {
       trigger: '.container-scroll-2',
       Scroller: 'body',
       start: 'center center',
       end: 'bottom center',
-      markers: true,
+      // markers: true,
+      scrub: 2
+  }
+})
+
+gsap.from('.container-scroll-4', {
+  x: 0,
+  y: 50,
+  opacity: 0,
+  scrollTrigger: {
+      trigger: '.container-scroll-3',
+      Scroller: 'body',
+      start: 'center center',
+      end: 'bottom center',
+      // markers: true,
+      scrub: 2
+  }
+})
+
+gsap.from('.container-scroll-5', {
+  x: 0,
+  y: 50,
+  opacity: 0,
+  scrollTrigger: {
+      trigger: '.container-scroll-4',
+      Scroller: 'body',
+      start: 'center center',
+      end: 'bottom center',
+      // markers: true,
       scrub: 2
   }
 })
