@@ -46,7 +46,7 @@ gsap.from('.container-scroll-2', {
       start: 'center center',
       end: 'bottom center',
       // markers: true,
-      scrub: 2
+      scrub: 4
   }
 })
 
@@ -80,7 +80,7 @@ gsap.from('.container-scroll-4', {
 
 gsap.from('.container-scroll-5', {
   x: 0,
-  y: 50,
+  y: 25,
   opacity: 0,
   scrollTrigger: {
       trigger: '.container-scroll-4',
@@ -88,6 +88,6 @@ gsap.from('.container-scroll-5', {
       start: 'center center',
       end: 'bottom center',
       // markers: true,
-      scrub: 2
+      scrub: 4
   }
 })

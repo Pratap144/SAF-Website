@@ -21,8 +21,8 @@ body {
   font-weight: 400;
   font-style: normal;
 
-  background: whitesmoke; /* fallback for old browsers */
-  background: linear-gradient(#acbb7837, #f7f8f8);
+  /* fallback for old browsers */
+  background: linear-gradient(#ffffff, #f5f5f5);
 }
 
 /* T Y P O G R A P H Y */
@@ -115,6 +115,16 @@ body {
   border: 2px solid var(--tertiary-color);
   transition: border 0.3s;
 } */
+
+.img-scaled {
+  border: rgba(164, 164, 164, 0.176) 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+  transition: transform 0.5s;
+}
+
+.img-scaled:hover {
+  transform: scale(1.03);
+}
 
 .IISER-img-container {
   width: 100%;
@@ -251,3 +261,36 @@ body {
 }
 
 /* - P R E L O A D E R */
+
+.area-1 {
+  background-color: #f5f5f5;
+  padding-top: 83px !important;
+}
+
+.ltrSpc {
+  letter-spacing: 1.5px;
+}
+
+.image img {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+}
+
+.card-sh:hover {
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.25s;
+}
+
+.link-sh {
+  border: 1px solid var(--primary-color);
+}
+
+.link-sh:hover {
+  border: 1px solid black;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+.pos {
+  position: relative;
+  top: -230px;
+}
