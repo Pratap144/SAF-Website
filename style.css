@@ -1,14 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* R O O T */
 :root {
   --primary-color: #ffcc00;
   --secondary-color: #ffffff;
   --tertiary-color: #000000;
 }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* root */
 
 html,
 body {
@@ -25,8 +29,7 @@ body {
   background: linear-gradient(#ffffff, #f5f5f5);
 }
 
-/* T Y P O G R A P H Y */
-
+/* F O N T S */
 @font-face {
   font-family: MadimiOneRegular400;
   src: url(./assets/fonts/Madimi_One/MadimiOne-Regular.ttf);
@@ -46,7 +49,9 @@ body {
   font-family: JosefinSansVariable100to700;
   src: url(./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
 }
+/* fonts */
 
+/* T Y P O G R A P H Y */
 h1,
 h2,
 h3,
@@ -66,9 +71,9 @@ body {
   font-family: JosefinSansVariable100to700;
   font-weight: 500;
 }
+/* typography*/
 
-/* - T Y P O G R A P H Y */
-
+/* H E R O */
 /* .heroes picture img {
   width: 100%;
   height: 100%;
@@ -92,11 +97,15 @@ body {
 .hero-section video {
   width: 100%;
 }
+/* hero */
 
+/* C O L O R */
 .yell {
   background-color: var(--primary-color);
 }
+/* color */
 
+/* B U T T O N */
 .yellBtn {
   background-color: var(--primary-color);
   border: 2px solid var(--primary-color);
@@ -115,7 +124,9 @@ body {
   border: 2px solid var(--tertiary-color);
   transition: border 0.3s;
 } */
+/* button */
 
+/* I M A G E S */
 .img-scaled {
   border: rgba(164, 164, 164, 0.176) 1px solid;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
@@ -142,7 +153,9 @@ body {
     rgb(255, 204, 0, 0.2) -15px 15px, rgb(255, 204, 0, 0.1) -20px 20px,
     rgb(255, 204, 0, 0.05) -25px 25px;
 }
+/* images */
 
+/* N A V B A R */
 .nav-link {
   font-weight: bold;
 }
@@ -195,6 +208,7 @@ body {
   border: 4px solid red;
   overflow: hidden;
 } */
+/* navbar */
 
 /* P R E L O A D E R */
 #preloader {
@@ -259,8 +273,7 @@ body {
 .noScroll {
   overflow: hidden;
 }
-
-/* - P R E L O A D E R */
+/* preloader */
 
 .area-1 {
   background-color: #f5f5f5;

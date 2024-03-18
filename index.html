@@ -27,7 +27,6 @@
   </head>
   <body onload="preload()" class="noScroll">
     <!-- P R E L O A D E R -->
-
     <div id="preloader" class="text-black-50" title="Loading...">
       <img
         src="./assets/images/ham-wheel.gif"
@@ -41,645 +40,437 @@
       />
       Loading...
     </div>
+    <!-- preloader -->
 
-    <!-- R O O T -->
-
-    <div id="root">
-      <!-- N A V B A R -->
-
-      <nav
-        class="navbar sticky-top shadow navbar-expand-lg p-lg-3 yell"
-        id="headerNav"
-      >
-        <div class="container-fluid">
-          <a
-            class="navbar-brand d-block d-lg-none fw-md-bold"
-            style="max-width: 70%"
-            href="#"
-          >
-            Small Animal Facility
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item navHover active activePage">
-                <a class="nav-link mx-2" aria-current="page" href="#"> Home </a>
-              </li>
-              <li class="nav-item navHover">
-                <a class="nav-link mx-2" href="./pages/programs.html">
-                  Programs
-                </a>
-              </li>
-              <li class="nav-item navHover">
-                <a class="nav-link mx-2" href="./pages/registration.html">
-                  Registration
-                </a>
-              </li>
-              <li class="nav-item navHover">
-                <a class="nav-link mx-2" href="./pages/gallery.html">Gallery</a>
-              </li>
-              <li class="nav-item navHover">
-                <a class="nav-link mx-2" href="./pages/contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- H E R O -->
-
-      <section
-        class="container-fluid g-0 hero-section container-scroll-1"
-        style="position: relative"
-      >
-        <video autoplay loop muted src="assets/images/SAF.mp4"></video>
-        <!-- <div
-          style="
-            position: absolute;
-            left: 10%;
-            top: 10%;
-            font-size: 4rem;
-            color: var(--primary-color);
-            font-weight: bold;
-          "
+    <!-- N A V B A R -->
+    <nav
+      class="navbar sticky-top shadow navbar-expand-lg p-lg-3 yell"
+      id="headerNav"
+    >
+      <div class="container-fluid">
+        <a
+          class="navbar-brand d-block d-lg-none fw-md-bold"
+          style="max-width: 70%"
+          href="#"
         >
-          Welocme to the
-          <span style="background-color: black"
-            >&nbsp; Animal Facility &nbsp;</span
-          >
-          of
-          <span style="background-color: black"
-            >&nbsp; IISER Kolkata &nbsp;</span
-          >
-        </div> -->
-      </section>
+          Small Animal Facility
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <!-- A B O U T   I I S E R   K O L K A T A -->
-
-      <section class="container mt-3 container-scroll-2">
-        <div class="row">
-          <div
-            class="col-lg-6 g-0 d-flex flex-column flex-wrap justify-content-center"
-          >
-            <div
-              class="container d-flex flex-column flex-wrap justify-content-center p-lg-5"
-            >
-              <h4 class="fs-3 my-4 text-black text-center text-uppercase">
-                About IISER Kolkata
-              </h4>
-              <p style="text-align: justify">
-                The Indian Institute of Science Education Research (IISER)
-                Kolkata was established in 2006 as an autonomous institute for
-                higher education by the Ministry of Education, Government of
-                India. The basic idea of IISER is to create research
-                universities of the highest caliber in which teaching and
-                education will be totally integrated with the state of the art
-                research. IISER-K has a vibrant campus with strong faculty
-                members of repute and a supportive non-teaching staff. The
-                students pursuing various degrees are among the best in the
-                country and thus far have established a commendable culture.
-              </p>
-              <a
-                class="btn fw-semibold rounded-pill py-2 my-4 shadow yellBtn"
-                href="https://www.iiserkol.ac.in"
-                role="button"
-                >Learn more</a
-              >
-            </div>
-          </div>
-          <div class="col-lg-6 g-0 d-flex flex-column my-auto ps-lg-5 p-lg-5">
-            <div
-              id="carouselExampleInterval"
-              class="conatiner px-3 carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner car-sh">
-                <div class="carousel-item active" data-bs-interval="3000">
-                  <img
-                    src="assets/images/IISER-2.jpeg"
-                    class="d-block img-fluid"
-                    alt="IISER"
-                  />
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                  <img
-                    src="assets/images/IISER-3.jpeg"
-                    class="d-block img-fluid"
-                    alt="IISER"
-                  />
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                  <img
-                    src="assets/images/IISER-4.jpeg"
-                    class="d-block img-fluid"
-                    alt="IISER"
-                  />
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleInterval"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleInterval"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item navHover active activePage">
+              <a class="nav-link mx-2" aria-current="page" href="#"> Home </a>
+            </li>
+            <li class="nav-item navHover">
+              <a class="nav-link mx-2" href="./pages/programs.html">
+                Programs
+              </a>
+            </li>
+            <li class="nav-item navHover">
+              <a class="nav-link mx-2" href="./pages/registration.html">
+                Registration
+              </a>
+            </li>
+            <li class="nav-item navHover">
+              <a class="nav-link mx-2" href="./pages/gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item navHover">
+              <a class="nav-link mx-2" href="./pages/contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-      </section>
+      </div>
+    </nav>
+    <!-- navbar -->
 
-      <!-- A B O U T   S A F -->
+    <!-- H E R O -->
+    <section
+      class="container-fluid g-0 hero-section container-scroll-1"
+      style="position: relative"
+    >
+      <video autoplay loop muted src="assets/images/SAF.mp4"></video>
+    </section>
+    <!-- hero -->
 
-      <section class="container my-5 container-scroll-3">
-        <div class="row d-flex flex-column-reverse flex-lg-row">
-          <div class="col-lg-6 g-0 my-lg-auto my-5 pe-lg-5 p-lg-5">
-            <div
-              id="carouselExampleInterval"
-              class="px-3 carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner car-sh-rev">
-                <div class="carousel-item active">
-                  <img
-                    src="assets/images/mouse-raw.jpg"
-                    class="d-block img-fluid"
-                    alt="IISER"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-6 g-0 d-flex flex-column flex-wrap justify-content-center"
-          >
-            <div
-              class="container d-flex flex-column justify-content-center p-lg-5"
-            >
-              <h4 class="fs-3 my-4 text-black text-center text-uppercase">
-                Small Animal Facility
-              </h4>
-              <p style="text-align: justify">
-                IISER Kolkata's Small Animal Facility (SAF) is registered by the
-                "Committee for the Purpose of Control and Supervision of
-                Experiments on Animals (CPCSEA)”, a body of the Government of
-                India. The “Institutional Animal Ethics Committee (IAEC)"
-                evaluates and approves all the conduct of animal experiments as
-                per CPCSEA rules & regulations. The Animal facility, facilitates
-                animal research of immune-competence and suppressive small
-                animals under a well established "Animal Bio-Safety Level 2
-                (ABSL2)" state of the art facility. The facility is well
-                equipped with modern instruments as per scientific standards,
-                and houses a well trained technical staff & various scientific
-                teams.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- A B O U T   T H E   W O R K S H O P -->
-
-      <section class="container mt-3 p-lg-5 container-scroll-4">
-        <h4 class="fs-3 my-4 text-black text-center text-uppercase">
-          About the workshop
-        </h4>
-        <p style="text-align: justify">
-          Our workshop is aimed at providing hands-on training to young students
-          and researchers in “handling small animals (mice), ethics, the basics
-          of animal house management, different research methodologies for
-          animal research, and future perspectives on inter-disciplinary and
-          multi-disciplinary research opportunities." In addition, the workshop
-          also aims to put forward an effort to minimise the gap between
-          inter-disciplinary and multi-disciplinary research opportunities for
-          the well-being of humankind. Participation will enhance knowledge of
-          science and contribute to developing multi-dimensional research ideas
-          and opportunities. Participants with a certificate of participation
-          can add to their skills, which can boost their openness and
-          opportunities abroad for higher studies.
-        </p>
-        <picture>
-          <img
-            src="./assets/images/collage.jpg"
-            class="img-fluid"
-            alt="Collage"
-          />
-        </picture>
-
-        <!-- <div class="accordion" id="accordionFlushExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne"
-                aria-expanded="false"
-                aria-controls="flush-collapseOne"
-              >
-                Module #1
-              </button>
-            </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse">
-              <div class="accordion-body justified">
-                1) Laboratory Animal Handling (Mice), 2) Care, 3) Ethics, 4)
-                Basics of Animal House Maintenance & Management , 5) ABSL2
-                Facility Access & Training , 6) Various Animal Models 7) General
-                Anatomy (Demonstration) & Physiology (Theory) 8) Anesthesia 9)
-                Euthanasia 10) Dissection (Mice), 11) Instrumentation
-                (Demonstration & Access).
-
-                <br />
-                <br />
-
-                Number of days: 5 days <br />
-                Minimum Eligibility: Admission in Bachelors (Any disciplines)
-                <br />
-                Cohort size: 30 <br />
-                Registration fee: Rs.3500/-
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo"
-                aria-expanded="false"
-                aria-controls="flush-collapseTwo"
-              >
-                Module #2
-              </button>
-            </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse">
-              <div class="accordion-body">
-                1) Histopathology (Theory), 2) Histopathology Instruments
-                (Access), 3) Dissection (mice) , 4) Tissue Harvesting, 5) Tissue
-                Processing , 6) Tissue Molding 7) Tissue Sectioning 8) Tissue
-                Staining (H& E, LFB, IHC & Western Blot), 9) RNA isolation, 10)
-                Protein Isolation & Quantification.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree"
-                aria-expanded="false"
-                aria-controls="flush-collapseThree"
-              >
-                Module #3
-              </button>
-            </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse">
-              <div class="accordion-body">
-                1) Tissue Harvesting), 2) RNA Extraction, 3) Real Time PCR, 4)
-                RT PCR, 5) Genotyping, 6) Western Blot , 7) IHC, 8) Flow
-                Cytometry, 9) Microscopy, 10) In-vivo Imaging.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFour"
-                aria-expanded="false"
-                aria-controls="flush-collapseFour"
-              >
-                Module #4
-              </button>
-            </h2>
-            <div id="flush-collapseFour" class="accordion-collapse collapse">
-              <div class="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti, corrupti? Id, rem? Quos, architecto ea. Libero magni
-                autem consectetur, dolore doloremque dignissimos neque officia
-                eligendi vero eveniet quod at quos deleniti soluta cumque
-                deserunt rem non numquam atque. Accusantium amet saepe doloribus
-                sed odio. Accusantium nulla reiciendis labore ipsum atque
-                assumenda! Illo, corporis ratione laboriosam quibusdam dicta
-                suscipit libero eveniet! Porro, consectetur aut dicta odio est
-                non totam facere excepturi magni culpa dolores itaque incidunt
-                mollitia praesentium vel reiciendis recusandae possimus ducimus.
-                Dolor, amet nam hic obcaecati labore pariatur sequi mollitia
-                adipisci blanditiis ea molestiae expedita quo vero, officia
-                quae.
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        <!-- Nav tabs -->
-        <!-- <ul class="nav nav-tabs mt-3" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="tab" href="#module1">
-              Module 1
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#module2">
-              Module 2
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#module3">
-              Module 3
-            </a>
-          </li>
-        </ul> -->
-
-        <!-- Tab panes -->
-        <!-- <div class="tab-content">
-          
-          <div id="module1" class="container tab-pane active">
-            <br />
-            <h3>Module 1</h3>
-            <ol>
-              <li>Laboratory Animal Handling (Mice)</li>
-              <li>Care</li>
-              <li>Ethics</li>
-              <li>Basics of Animal House Maintenance & Management</li>
-              <li>ABSL2</li>
-              <li>Facility Access & Training</li>
-              <li>Various Animal Models</li>
-              <li>General Anatomy (Demonstration) & Physiology (Theory)</li>
-              <li>Anesthesia</li>
-              <li>Euthanasia</li>
-              <li>Dissection (Mice)</li>
-              <li>Instrumentation (Demonstration & Access)</li>
-            </ol>
-          </div>
-          <div id="module2" class="container tab-pane fade">
-            <br />
-            <h3>Module 2</h3>
-            <ol>
-              <li>Histopathology (Theory)</li>
-              <li>Histopathology Instruments (Access)</li>
-              <li>Dissection (mice)</li>
-              <li>Tissue Harvesting</li>
-              <li>Tissue Processing</li>
-              <li>Tissue Molding</li>
-              <li>Tissue Sectioning</li>
-              <li>Tissue Staining (H& E, LFB, IHC & Western Blot)</li>
-              <li>RNA isolation</li>
-              <li>Protein Isolation & Quantification</li>
-            </ol>
-          </div>
-          <div id="module3" class="container tab-pane fade">
-            <br />
-            <h3>Module 3</h3>
-            <ol>
-              <li>Tissue Harvesting</li>
-              <li>RNA Extraction</li>
-              <li>Real Time PCR</li>
-              <li>RT PCR</li>
-              <li>Genotyping</li>
-              <li>Western Blot</li>
-              <li>IHC</li>
-              <li>Flow Cytometry</li>
-              <li>Microscopy</li>
-              <li>In-vivo Imaging</li>
-            </ol>
-          </div>
-        </div> -->
-      </section>
-
-      <!-- C O U R S E S -->
-
-      <section class="container px-lg-5 pb-lg-5 container-scroll-5">
+    <!-- A B O U T   I I S E R   K O L K A T A -->
+    <section class="container mt-3 container-scroll-2">
+      <div class="row">
         <div
-          class="row row-cols-1 row-cols-lg-4 row-cols-md-3 mb-3 text-center"
+          class="col-lg-6 g-0 d-flex flex-column flex-wrap justify-content-center"
         >
-          <div class="col">
-            <div class="card mb-4 card-sh">
-              <div class="card-header py-3">
-                <h5 class="my-0 fw-semibold">Module 1</h5>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title pricing-card-title">
-                  ₹3,500
-                  <p class="text-muted fw-light">(one-time)</p>
-                </h5>
-                <ul class="list-unstyled mt-3 mb-2">
-                  <h6 class="fw-semibold text-decoration-underline">
-                    You'll learn:
-                  </h6>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                </ul>
-                <div class="mb-2">
-                  <i
-                    ><a
-                      class="icon-link icon-link-hover"
-                      href="https://www.google.com"
-                    >
-                      more details
-                      <i class="bi bi-arrow-right"></i> </a
-                  ></i>
-                </div>
-                <button
-                  type="button"
-                  class="w-75 btn my-2 rounded-pill fw-semibold yellBtn"
-                >
-                  Register now
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card mb-4 card-sh">
-              <div class="card-header py-3">
-                <h5 class="my-0 fw-semibold">Module 2</h5>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title pricing-card-title">
-                  ₹6,000
-                  <p class="text-muted fw-light">(one-time)</p>
-                </h5>
-                <ul class="list-unstyled mt-3 mb-2">
-                  <h6 class="fw-semibold text-decoration-underline">
-                    You'll learn:
-                  </h6>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                </ul>
-                <div class="mb-2">
-                  <i
-                    ><a
-                      class="icon-link icon-link-hover"
-                      href="https://www.google.com"
-                    >
-                      more details
-                      <i class="bi bi-arrow-right"></i> </a
-                  ></i>
-                </div>
-                <button
-                  type="button"
-                  class="w-75 btn my-2 rounded-pill fw-semibold yellBtn"
-                >
-                  Register now
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card mb-4 card-sh">
-              <div class="card-header py-3">
-                <h5 class="my-0 fw-semibold">Module 3</h5>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title pricing-card-title">
-                  ₹10,000
-                  <p class="text-muted fw-light">(one-time)</p>
-                </h5>
-                <ul class="list-unstyled mt-3 mb-2">
-                  <h6 class="fw-semibold text-decoration-underline">
-                    You'll learn:
-                  </h6>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                </ul>
-                <div class="mb-2">
-                  <i
-                    ><a
-                      class="icon-link icon-link-hover"
-                      href="https://www.google.com"
-                    >
-                      more details
-                      <i class="bi bi-arrow-right"></i> </a
-                  ></i>
-                </div>
-                <button
-                  type="button"
-                  class="w-75 btn my-2 rounded-pill fw-semibold yellBtn"
-                >
-                  Register now
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card mb-4 card-sh">
-              <div class="card-header py-3">
-                <h5 class="my-0 fw-semibold">Module 4</h5>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title pricing-card-title">
-                  ₹20,000
-                  <p class="text-muted fw-light">(one-time)</p>
-                </h5>
-                <ul class="list-unstyled mt-3 mb-2">
-                  <h6 class="fw-semibold text-decoration-underline">
-                    You'll learn:
-                  </h6>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                </ul>
-                <div class="mb-2">
-                  <i
-                    ><a
-                      class="icon-link icon-link-hover"
-                      href="https://www.google.com"
-                    >
-                      more details
-                      <i class="bi bi-arrow-right"></i> </a
-                  ></i>
-                </div>
-                <button
-                  type="button"
-                  class="w-75 btn my-2 rounded-pill fw-semibold yellBtn"
-                >
-                  Register now
-                </button>
-              </div>
-            </div>
+          <div
+            class="container d-flex flex-column flex-wrap justify-content-center p-lg-5"
+          >
+            <h4 class="fs-3 my-4 text-black text-center text-uppercase">
+              About IISER Kolkata
+            </h4>
+            <p style="text-align: justify">
+              The Indian Institute of Science Education Research (IISER) Kolkata
+              was established in 2006 as an autonomous institute for higher
+              education by the Ministry of Education, Government of India. The
+              basic idea of IISER is to create research universities of the
+              highest caliber in which teaching and education will be totally
+              integrated with the state of the art research. IISER-K has a
+              vibrant campus with strong faculty members of repute and a
+              supportive non-teaching staff. The students pursuing various
+              degrees are among the best in the country and thus far have
+              established a commendable culture.
+            </p>
+            <a
+              class="btn fw-semibold rounded-pill py-2 my-4 shadow yellBtn"
+              href="https://www.iiserkol.ac.in"
+              role="button"
+              >Learn more</a
+            >
           </div>
         </div>
-
-        <div class="card text-center card-sh">
-          <div class="card-header py-3">
-            <h5 class="my-0 fw-semibold">Module 5</h5>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-            <p class="card-text text-start justified">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
-              deleniti ipsam eum sapiente. Rerum neque eligendi earum minima
-              corrupti autem cum ratione possimus, numquam necessitatibus
-              consectetur vitae. Vitae temporibus deleniti, laudantium
-              distinctio non, aspernatur alias quae rerum, laboriosam
-              perferendis numquam id deserunt eligendi! Sint ut consequatur
-              deserunt tempora? Tempore, incidunt?
-            </p>
-
+        <div class="col-lg-6 g-0 d-flex flex-column my-auto ps-lg-5 p-lg-5">
+          <div
+            id="carouselExampleInterval"
+            class="conatiner px-3 carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner car-sh">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img
+                  src="assets/images/IISER-2.jpeg"
+                  class="d-block img-fluid"
+                  alt="IISER"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="assets/images/IISER-3.jpeg"
+                  class="d-block img-fluid"
+                  alt="IISER"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="assets/images/IISER-4.jpeg"
+                  class="d-block img-fluid"
+                  alt="IISER"
+                />
+              </div>
+            </div>
             <button
+              class="carousel-control-prev"
               type="button"
-              class="btn px-5 my-2 rounded-pill fw-semibold yellBtn"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
             >
-              Register now
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
             </button>
           </div>
         </div>
+      </div>
+    </section>
+    <!-- about iiser kolkata -->
 
-        <h2>Schedule details</h2>
-        <p>Lorem, ipsum.</p>
-      </section>
+    <!-- A B O U T   S A F -->
+    <section class="container my-5 container-scroll-3">
+      <div class="row d-flex flex-column-reverse flex-lg-row">
+        <div class="col-lg-6 g-0 my-lg-auto my-5 pe-lg-5 p-lg-5">
+          <div
+            id="carouselExampleInterval"
+            class="px-3 carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner car-sh-rev">
+              <div class="carousel-item active">
+                <img
+                  src="assets/images/mouse-raw.jpg"
+                  class="d-block img-fluid"
+                  alt="IISER"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-6 g-0 d-flex flex-column flex-wrap justify-content-center"
+        >
+          <div
+            class="container d-flex flex-column justify-content-center p-lg-5"
+          >
+            <h4 class="fs-3 my-4 text-black text-center text-uppercase">
+              Small Animal Facility
+            </h4>
+            <p style="text-align: justify">
+              IISER Kolkata's Small Animal Facility (SAF) is registered by the
+              "Committee for the Purpose of Control and Supervision of
+              Experiments on Animals (CPCSEA)”, a body of the Government of
+              India. The “Institutional Animal Ethics Committee (IAEC)"
+              evaluates and approves all the conduct of animal experiments as
+              per CPCSEA rules & regulations. The Animal facility, facilitates
+              animal research of immune-competence and suppressive small animals
+              under a well established "Animal Bio-Safety Level 2 (ABSL2)" state
+              of the art facility. The facility is well equipped with modern
+              instruments as per scientific standards, and houses a well trained
+              technical staff & various scientific teams.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about saf -->
 
-      <!-- F O O T E R -->
+    <!-- A B O U T   T H E   W O R K S H O P -->
+    <section class="container mt-3 p-lg-5 container-scroll-4">
+      <h4 class="fs-3 my-4 text-black text-center text-uppercase">
+        About the workshop
+      </h4>
+      <p style="text-align: justify">
+        Our workshop is aimed at providing hands-on training to young students
+        and researchers in “handling small animals (mice), ethics, the basics of
+        animal house management, different research methodologies for animal
+        research, and future perspectives on inter-disciplinary and
+        multi-disciplinary research opportunities." In addition, the workshop
+        also aims to put forward an effort to minimise the gap between
+        inter-disciplinary and multi-disciplinary research opportunities for the
+        well-being of humankind. Participation will enhance knowledge of science
+        and contribute to developing multi-dimensional research ideas and
+        opportunities. Participants with a certificate of participation can add
+        to their skills, which can boost their openness and opportunities abroad
+        for higher studies.
+      </p>
+      <picture>
+        <img
+          src="./assets/images/collage.jpg"
+          class="img-fluid"
+          alt="Collage"
+        />
+      </picture>
+    </section>
+    <!-- about the workshop -->
 
-      <footer class="pt-3 my-2 border-top">
-        <p class="text-center text-muted">
-          © 2024 SAF IISER Kolkata • Web Designed by DesignDistrict.in
-        </p>
-      </footer>
-    </div>
+    <!-- C O U R S E S -->
+    <section class="container px-lg-5 pb-lg-5 container-scroll-5">
+      <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 card-sh">
+            <div class="card-header py-3">
+              <h5 class="my-0 fw-semibold">Module 1</h5>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title pricing-card-title">
+                ₹3,500
+                <p class="text-muted fw-light">(one-time)</p>
+              </h5>
+              <ul class="list-unstyled mt-3 mb-2">
+                <h6 class="fw-semibold text-decoration-underline">
+                  You'll learn:
+                </h6>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+              </ul>
+              <div class="mb-2">
+                <i
+                  ><a
+                    class="icon-link icon-link-hover"
+                    href="https://www.google.com"
+                  >
+                    more details
+                    <i class="bi bi-arrow-right"></i> </a
+                ></i>
+              </div>
+              <button
+                type="button"
+                class="w-75 btn my-2 rounded-pill fw-semibold yellBtn"
+              >
+                Register now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 card-sh">
+            <div class="card-header py-3">
+              <h5 class="my-0 fw-semibold">Module 2</h5>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title pricing-card-title">
+                ₹6,000
+                <p class="text-muted fw-light">(one-time)</p>
+              </h5>
+              <ul class="list-unstyled mt-3 mb-2">
+                <h6 class="fw-semibold text-decoration-underline">
+                  You'll learn:
+                </h6>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+              </ul>
+              <div class="mb-2">
+                <i
+                  ><a
+                    class="icon-link icon-link-hover"
+                    href="https://www.google.com"
+                  >
+                    more details
+                    <i class="bi bi-arrow-right"></i> </a
+                ></i>
+              </div>
+              <button
+                type="button"
+                class="w-75 btn my-2 rounded-pill fw-semibold yellBtn"
+              >
+                Register now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 card-sh">
+            <div class="card-header py-3">
+              <h5 class="my-0 fw-semibold">Module 3</h5>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title pricing-card-title">
+                ₹10,000
+                <p class="text-muted fw-light">(one-time)</p>
+              </h5>
+              <ul class="list-unstyled mt-3 mb-2">
+                <h6 class="fw-semibold text-decoration-underline">
+                  You'll learn:
+                </h6>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+              </ul>
+              <div class="mb-2">
+                <i
+                  ><a
+                    class="icon-link icon-link-hover"
+                    href="https://www.google.com"
+                  >
+                    more details
+                    <i class="bi bi-arrow-right"></i> </a
+                ></i>
+              </div>
+              <button
+                type="button"
+                class="w-75 btn my-2 rounded-pill fw-semibold yellBtn"
+              >
+                Register now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 card-sh">
+            <div class="card-header py-3">
+              <h5 class="my-0 fw-semibold">Module 4</h5>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title pricing-card-title">
+                ₹20,000
+                <p class="text-muted fw-light">(one-time)</p>
+              </h5>
+              <ul class="list-unstyled mt-3 mb-2">
+                <h6 class="fw-semibold text-decoration-underline">
+                  You'll learn:
+                </h6>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+              </ul>
+              <div class="mb-2">
+                <i
+                  ><a
+                    class="icon-link icon-link-hover"
+                    href="https://www.google.com"
+                  >
+                    more details
+                    <i class="bi bi-arrow-right"></i> </a
+                ></i>
+              </div>
+              <button
+                type="button"
+                class="w-75 btn my-2 rounded-pill fw-semibold yellBtn"
+              >
+                Register now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="card text-center card-sh">
+        <div class="card-header py-3">
+          <h5 class="my-0 fw-semibold">Module 5</h5>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+          <p class="card-text text-start justified">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+            deleniti ipsam eum sapiente. Rerum neque eligendi earum minima
+            corrupti autem cum ratione possimus, numquam necessitatibus
+            consectetur vitae. Vitae temporibus deleniti, laudantium distinctio
+            non, aspernatur alias quae rerum, laboriosam perferendis numquam id
+            deserunt eligendi! Sint ut consequatur deserunt tempora? Tempore,
+            incidunt?
+          </p>
+
+          <button
+            type="button"
+            class="btn px-5 my-2 rounded-pill fw-semibold yellBtn"
+          >
+            Register now
+          </button>
+        </div>
+      </div>
+
+      <h2>Schedule details</h2>
+      <p>Lorem, ipsum.</p>
+    </section>
+    <!-- courses -->
+
+    <!-- F O O T E R -->
+    <footer class="pt-3 my-2 border-top">
+      <p class="text-center text-muted">
+        &copy; 2024 SAF IISER Kolkata • Web Designed by DesignDistrict.in
+      </p>
+    </footer>
+    <!-- footer -->
+
+    <!-- S C R I P T S -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="./app.js"></script>
+    <!-- scripts -->
   </body>
 </html>
