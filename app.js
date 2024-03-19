@@ -22,72 +22,66 @@ function preload() {
 //   x: 80
 // })
 
-gsap.to('.container-scroll-1', {
-  scale: 0.85,
-  ease: 'none',
-  // scale: 0.81,
-  scrollTrigger: {
-      trigger: '.container-scroll-1',
-      Scroller: 'body',
-      start: 'top 0%',
-      end: 'bottom 50%',
-      // markers: true,
-      scrub: 0.5
-  }
-})
+// gsap.to('.container-scroll-1', {
+//   scale: 0.85,
+//   ease: 'none',
+//   scrollTrigger: {
+//       trigger: '.container-scroll-1',
+//       Scroller: 'body',
+//       start: 'top 0%',
+//       end: 'bottom 50%',
+//       scrub: 0.5
+//   }
+// })
 
-gsap.from('.container-scroll-2', {
-  x: 0,
-  y: 50,
-  opacity: 0,
-  scrollTrigger: {
-      trigger: '.container-scroll-1',
-      Scroller: 'body',
-      start: 'center center',
-      end: 'bottom center',
-      // markers: true,
-      scrub: 4
-  }
-})
+// gsap.from('.container-scroll-2', {
+//   x: 0,
+//   y: 50,
+//   opacity: 0,
+//   scrollTrigger: {
+//       trigger: '.container-scroll-1',
+//       Scroller: 'body',
+//       start: 'center center',
+//       end: 'bottom center',
+//       scrub: 4
+//   }
+// })
 
-gsap.from('.container-scroll-3', {
-  x: 0,
-  y: 50,
-  opacity: 0,
-  scrollTrigger: {
-      trigger: '.container-scroll-2',
-      Scroller: 'body',
-      start: 'center center',
-      end: 'bottom center',
-      // markers: true,
-      scrub: 2
-  }
-})
+// gsap.from('.container-scroll-3', {
+//   x: 0,
+//   y: 50,
+//   opacity: 0,
+//   scrollTrigger: {
+//       trigger: '.container-scroll-2',
+//       Scroller: 'body',
+//       start: 'center center',
+//       end: 'bottom center',
+//       scrub: 2
+//   }
+// })
 
-gsap.from('.container-scroll-4', {
-  x: 0,
-  y: 50,
-  opacity: 0,
-  scrollTrigger: {
-      trigger: '.container-scroll-3',
-      Scroller: 'body',
-      start: 'center center',
-      end: 'bottom center',
-      // markers: true,
-      scrub: 2
-  }
-})
+// gsap.from('.container-scroll-4', {
+//   x: 0,
+//   y: 50,
+//   opacity: 0,
+//   scrollTrigger: {
+//       trigger: '.container-scroll-3',
+//       Scroller: 'body',
+//       start: 'center center',
+//       end: 'bottom center',
+//       scrub: 2
+//   }
+// })
 
-gsap.from('.container-scroll-5', {
-  x: 0,
-  y: 25,
-  opacity: 0,
-  scrollTrigger: {
-      trigger: '.container-scroll-4',
-      Scroller: 'body',
-      start: 'center center',
-      end: 'bottom center',
-      // markers: true,
-      scrub: 4
-  }
-})
+// gsap.from('.container-scroll-5', {
+//   x: 0,
+//   y: 25,
+//   opacity: 0,
+//   scrollTrigger: {
+//       trigger: '.container-scroll-4',
+//       Scroller: 'body',
+//       start: 'center center',
+//       end: 'bottom center',
+//       scrub: 4
+//   }
+// })
