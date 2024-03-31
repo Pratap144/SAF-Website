@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SAF-IISERK - Registration</title>
+    <title>SAF-IISERK - Modules</title>
 
     <!-- F A V I C O N -->
     <link
@@ -39,12 +39,15 @@
     <!-- preloader -->
 
     <!-- N A V B A R -->
-    <nav class="navbar sticky-top navbar-expand-lg p-3 yell" id="headerNav">
+    <nav
+      class="navbar sticky-top shadow navbar-expand-lg p-lg-3 yell"
+      id="headerNav"
+    >
       <div class="container-fluid">
         <a
-          class="navbar-brand d-block d-lg-none fw-bold"
+          class="navbar-brand d-block d-lg-none fw-md-bold"
           style="max-width: 70%"
-          href="../index.html"
+          href="#"
         >
           Small Animal Facility
         </a>
@@ -63,23 +66,75 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item navHover">
-              <a class="nav-link mx-2" aria-current="page" href="../index.html">
-                Home
+              <a class="nav-link mx-2" aria-current="page" href="../index.html"> Home </a>
+            </li>
+            <li class="nav-item navHover dropdown active activePage">
+              <a
+                class="nav-link dropdown-toggle mx-2"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Programs
               </a>
+              <ul class="dropdown-menu text-center">
+                <li>
+                  <a
+                    class="dropdown-item border-bottom"
+                    href="#"
+                    >Modules</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="schedule.html"
+                    >Schedule</a
+                  >
+                </li>
+              </ul>
             </li>
-            <li class="nav-item navHover">
-              <a class="nav-link mx-2" href="./programs.html"> Programs </a>
-            </li>
-            <li class="nav-item navHover active activePage">
-              <a class="nav-link mx-2" href="./registration.html">
+            <!-- <li class="nav-item navHover">
+              <a class="nav-link mx-2" href="./pages/programs.html">
+                Programs
+              </a>
+            </li> -->
+            <li class="nav-item navHover dropdown">
+              <a
+                class="nav-link dropdown-toggle mx-2"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Registration
               </a>
+              <ul class="dropdown-menu text-center">
+                <li>
+                  <a
+                    class="dropdown-item border-bottom"
+                    href="payment.html"
+                    >Payment</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="forms.html"
+                    >Forms</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item navHover">
+              <a class="nav-link mx-2" href="./pages/registration.html">
+                Registration
+              </a>
+            </li> -->
+            <li class="nav-item navHover">
+              <a class="nav-link mx-2" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item navHover">
-              <a class="nav-link mx-2" href="./gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item navHover">
-              <a class="nav-link mx-2" href="./contact.html">Contact</a>
+              <a class="nav-link mx-2" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -92,7 +147,7 @@
       <div class="text-center position-relative">
         <img width="100%" src="../assets/images/collage.jpg" alt="collage" />
         <h1 class="position-absolute top-50 start-50 translate-middle">
-          Registration
+          Modules
         </h1>
       </div>
     </section>
