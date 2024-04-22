@@ -245,3 +245,35 @@ body {
   box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.25s;
 }
+
+#flush-collapseOne::before {
+  content: "";
+  display: block;
+  height: 125px;
+  margin-top: -125px;
+  visibility: hidden;
+}
+
+#flush-collapseTwo::before {
+  content: "";
+  display: block;
+  height: 125px;
+  margin-top: -125px;
+  visibility: hidden;
+}
+
+#flush-collapseThree::before {
+  content: "";
+  display: block;
+  height: 125px;
+  margin-top: -125px;
+  visibility: hidden;
+}
+
+#flush-collapseFour::before {
+  content: "";
+  display: block;
+  height: 125px;
+  margin-top: -125px;
+  visibility: hidden;
+}
