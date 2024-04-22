@@ -136,6 +136,21 @@ body {
 /* images */
 
 /* N A V B A R */
+.navbar-toggler {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+}
+
+.navbar-toggler-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-collapse {
+  margin: 15px 0 0;
+}
+
 .nav-link {
   font-weight: bold;
 }
@@ -160,6 +175,20 @@ body {
   background-color: var(--secondary-color);
   color: var(--tertiary-color);
   margin: 0 8px;
+}
+
+@media screen and (max-width: 980px) {
+  .navHover {
+    border-radius: 5px;
+  }
+
+  .navHover:hover {
+    border-radius: 5px;
+  }
+
+  .activePage {
+    margin: 0;
+  }
 }
 /* navbar */
 
@@ -246,6 +275,7 @@ body {
   transition: box-shadow 0.25s;
 }
 
+/* A C C O R D I O N   L I N K S */
 #flush-collapseOne::before {
   content: "";
   display: block;
@@ -277,3 +307,4 @@ body {
   margin-top: -125px;
   visibility: hidden;
 }
+/* accordion links */
