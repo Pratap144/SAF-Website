@@ -123,15 +123,15 @@ body {
 }
 
 .car-sh {
-  box-shadow: rgb(255, 204, 0, 0.4) 5px 5px, rgba(255, 204, 0, 0.3) 10px 10px,
-    rgb(255, 204, 0, 0.2) 15px 15px, rgb(255, 204, 0, 0.1) 20px 20px,
-    rgb(255, 204, 0, 0.05) 25px 25px;
+  box-shadow: rgba(0, 130, 255, 0.4) 5px 5px, rgba(0, 130, 255, 0.3) 10px 10px,
+    rgb(0, 130, 255, 0.2) 15px 15px, rgb(0, 130, 255, 0.1) 20px 20px,
+    rgb(0, 130, 255, 0.05) 25px 25px;
 }
 
 .car-sh-rev {
-  box-shadow: rgb(255, 204, 0, 0.4) -5px 5px, rgba(255, 204, 0, 0.3) -10px 10px,
-    rgb(255, 204, 0, 0.2) -15px 15px, rgb(255, 204, 0, 0.1) -20px 20px,
-    rgb(255, 204, 0, 0.05) -25px 25px;
+  box-shadow: rgb(0, 130, 255, 0.4) -5px 5px, rgba(0, 130, 255, 0.3) -10px 10px,
+    rgb(0, 130, 255, 0.2) -15px 15px, rgb(0, 130, 255, 0.1) -20px 20px,
+    rgb(0, 130, 255, 0.05) -25px 25px;
 }
 /* images */
 
@@ -276,35 +276,11 @@ body {
 }
 
 /* A C C O R D I O N   L I N K S */
-#flush-collapseOne::before {
+.moduleLink::before {
   content: "";
   display: block;
-  height: 125px;
-  margin-top: -125px;
-  visibility: hidden;
-}
-
-#flush-collapseTwo::before {
-  content: "";
-  display: block;
-  height: 125px;
-  margin-top: -125px;
-  visibility: hidden;
-}
-
-#flush-collapseThree::before {
-  content: "";
-  display: block;
-  height: 125px;
-  margin-top: -125px;
-  visibility: hidden;
-}
-
-#flush-collapseFour::before {
-  content: "";
-  display: block;
-  height: 125px;
-  margin-top: -125px;
+  height: 140px;
+  margin-top: -140px;
   visibility: hidden;
 }
 /* accordion links */

@@ -23,24 +23,65 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse my-1" id="navbarNavDropdown">
       <ul class="navbar-nav mx-auto">
-        <li class="nav-item navHover active activePage">
-          <a class="nav-link mx-2" aria-current="page" href="#"> Home </a>
-        </li>
         <li class="nav-item navHover">
-          <a class="nav-link mx-2" href="./pages/programs.html"> Programs </a>
-        </li>
-        <li class="nav-item navHover">
-          <a class="nav-link mx-2" href="./pages/registration.html">
-            Registration
+          <a class="nav-link mx-2" aria-current="page" href="../index.html">
+            Home
           </a>
         </li>
-        <li class="nav-item navHover">
-          <a class="nav-link mx-2" href="./pages/gallery.html">Gallery</a>
+        <li class="nav-item navHover dropdown">
+          <a
+            class="nav-link dropdown-toggle mx-2"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Programs
+          </a>
+          <ul class="dropdown-menu text-center">
+            <li>
+              <a class="dropdown-item border-bottom" href="modules.html"
+                >Modules</a
+              >
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="schedule.html">Schedule</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item navHover dropdown">
+          <a
+            class="nav-link dropdown-toggle mx-2"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Registration
+          </a>
+          <ul class="dropdown-menu text-center">
+            <li>
+              <a class="dropdown-item border-bottom" href="payment.html"
+                >Payment</a
+              >
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="forms.html">Forms</a>
+            </li>
+          </ul>
         </li>
         <li class="nav-item navHover">
-          <a class="nav-link mx-2" href="./pages/contact.html">Contact</a>
+          <a class="nav-link mx-2" href="members.html">Members</a>
+        </li>
+        <li class="nav-item navHover">
+          <a class="nav-link mx-2" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item navHover active activePage">
+          <a class="nav-link mx-2" href="#">Contact</a>
         </li>
       </ul>
     </div>
