@@ -1,6 +1,6 @@
 /* R O O T */
 :root {
-  --primary-color: #00215e;
+  --primary-color: #008cff;
   --secondary-color: #ffffff;
   --tertiary-color: #000000;
 }
@@ -332,3 +332,8 @@ body {
   background: #ffcc00;
 }
 /* scrollbar */
+
+.heroTitle {
+  background-color: black;
+  color: var(--primary-color);
+}
