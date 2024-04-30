@@ -26,16 +26,6 @@ body {
 
 /* F O N T S */
 @font-face {
-  font-family: MadimiOneRegular400;
-  src: url(./assets/fonts/Madimi_One/MadimiOne-Regular.ttf);
-}
-
-@font-face {
-  font-family: PoppinsRegular400;
-  src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
-}
-
-@font-face {
   font-family: MontserratVariable100to900;
   src: url(./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
@@ -314,7 +304,6 @@ body {
   background: var(--primary-color);
   border: 0;
 }
-
 /* scrollbar */
 
 .heroTitle {
