@@ -325,3 +325,7 @@ body {
 .icon-link {
   color: #ed0f07;
 }
+
+.accordion-button {
+  background-color: #e6f0ff;
+}
