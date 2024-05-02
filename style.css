@@ -86,6 +86,14 @@ body {
   transition: border 0.3s;
 }
 
+ul > a {
+  color: var(--tertiary-color);
+}
+
+ul > a:hover {
+  color: var(--secondary-color);
+}
+
 /* button */
 
 /* L I N K S */
