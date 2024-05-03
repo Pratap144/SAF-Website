@@ -7,6 +7,21 @@ function preload() {
   preloader.style.visibility = "hidden";
 }
 
+const menuToggle = document.getElementById("navbarNavDropdown");
+const bsCollapse = bootstrap.Collapse.getOrCreateInstance(menuToggle, {
+  toggle: false,
+});
+
+document.addEventListener("click", (event) => {
+  if (menuToggle.contains(event.target)) {
+    return;
+  }
+
+  if (menuToggle.classList.contains("show")) {
+    bsCollapse.toggle();
+  }
+});
+
 // C O L O R   P I C K E R   S C R I P T
 // document
 //   .getElementById("colorPickerBtn")
