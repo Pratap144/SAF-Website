@@ -45,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: MontserratVariable100to900, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
 }
 
@@ -55,7 +55,7 @@ p {
 
 html,
 body {
-  font-family: JosefinSansVariable100to700, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
 /* typography*/
@@ -281,8 +281,8 @@ ul > a:hover {
 .moduleLink::before {
   content: "";
   display: block;
-  height: 140px;
-  margin-top: -140px;
+  height: 155px;
+  margin-top: -155px;
   visibility: hidden;
 }
 /* accordion links */
@@ -315,8 +315,17 @@ ul > a:hover {
 /* scrollbar */
 
 .heroTitle {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
   color: var(--primary-color);
+  font-size: 3.5rem;
+  padding: 5px 10px;
+}
+
+@media screen and (max-width: 980px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
 }
 
 .icon-link {
@@ -326,6 +335,10 @@ ul > a:hover {
 
 .accordion-button {
   background-color: #e6f0ff;
+}
+
+.accordion-button::after {
+  display: none;
 }
 
 .pricing-card-title {
