@@ -293,6 +293,7 @@ ul > a:hover {
   height: 100px;
   margin-top: -100px;
   visibility: hidden;
+  z-index: -9999;
 }
 
 /* S C R O L L B A R */
