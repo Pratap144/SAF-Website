@@ -1,3 +1,6 @@
 *.DS_Store*
 *dist.zip
 offline
+
+node_modules/
+.parcel-cache/
