@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- S E O -->
+    <!-- begin seo -->
     <title>Animal Facility - IISER Kolkata</title>
     <link
       rel="shortcut icon"
@@ -21,7 +21,7 @@
     />
     <meta name="author" content="DesignDistrict.in" />
 
-    <!-- Open Graph / Facebook -->
+    <!-- Facebook Card -->
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
@@ -37,7 +37,7 @@
       content="https://www.iiserkol.ac.in/~animalfacility/assets/images/lab/4.jpg"
     />
 
-    <!-- Twitter -->
+    <!-- Twitter Card -->
     <meta property="twitter:card" content="Website" />
     <meta
       property="twitter:url"
@@ -52,17 +52,17 @@
       property="twitter:image"
       content="https://www.iiserkol.ac.in/~animalfacility/assets/images/lab/4.jpg"
     />
-    <!-- seo -->
+    <!-- end seo -->
 
-    <!-- S T Y L E S -->
+    <!-- begin styles -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="../style.css" />
-    <!-- styles -->
+    <!-- end styles -->
 
-    <!-- I C O N S -->
+    <!-- begin icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -71,10 +71,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
-    <!-- icons -->
+    <!-- end icons -->
   </head>
   <body onload="preload()" class="noScroll">
-    <!-- P R E L O A D E R -->
+    <!-- begin preloader -->
     <div id="preloader" class="text-black-50" title="Loading...">
       <img
         loading="lazy"
@@ -89,9 +89,9 @@
       />
       Loading...
     </div>
-    <!-- preloader -->
+    <!-- end preloader -->
 
-    <!-- N A V B A R -->
+    <!-- begin navbar -->
     <nav
       class="navbar sticky-top shadow navbar-expand-lg p-lg-3 yell"
       id="headerNav"
@@ -135,7 +135,9 @@
               </a>
               <ul class="dropdown-menu text-center">
                 <li>
-                  <a class="dropdown-item border-bottom" href="#"> Modules </a>
+                  <a class="dropdown-item border-bottom active" href="#">
+                    Modules
+                  </a>
                 </li>
 
                 <li>
@@ -207,9 +209,9 @@
         </div>
       </div>
     </nav>
-    <!-- navbar -->
+    <!-- end navbar -->
 
-    <!-- H E R O -->
+    <!-- begin hero -->
     <section class="container-fluild mb-5">
       <div class="text-center position-relative">
         <img
@@ -225,7 +227,7 @@
         </h1>
       </div>
     </section>
-    <!-- hero -->
+    <!-- end hero -->
 
     <!-- P R O G R A M  D E T A I L S -->
     <section class="container mt-3">
@@ -245,7 +247,7 @@
           </h2>
           <div
             id="Module01"
-            class="accordion-collapse collapse show moduleLink"
+            class="accordion-collapse collapse show targetLink"
           >
             <div class="accordion-body justified">
               <table class="table table-bordered table-striped">
@@ -430,7 +432,7 @@
           </h2>
           <div
             id="Module02"
-            class="accordion-collapse collapse show moduleLink"
+            class="accordion-collapse collapse show targetLink"
           >
             <div class="accordion-body">
               <table class="table table-bordered table-striped">
@@ -597,7 +599,7 @@
           </h2>
           <div
             id="Module03"
-            class="accordion-collapse collapse show moduleLink"
+            class="accordion-collapse collapse show targetLink"
           >
             <div class="accordion-body">
               <table class="table table-bordered table-striped">
@@ -746,7 +748,7 @@
           </h2>
           <div
             id="Module04"
-            class="accordion-collapse collapse show moduleLink"
+            class="accordion-collapse collapse show targetLink"
           >
             <div class="accordion-body">
               <table class="table table-bordered table-striped">
@@ -903,7 +905,18 @@
     <br />
     <br />
 
-    <!-- F O O T E R -->
+    <!-- begin to top button -->
+    <button
+      type="button"
+      class="btn btn-secondary btn-floating btn-lg position-fixed bottom-0 end-0 me-1 mb-1"
+      style="display: none"
+      id="btn-back-to-top"
+    >
+      <i class="fa-solid fa-up-long"></i>
+    </button>
+    <!-- end to top button -->
+
+    <!-- begin footer -->
     <footer class="pt-3 my-2 border-top">
       <p class="text-center text-muted mb-0">&copy; 2024 SAF IISER Kolkata</p>
       <p class="text-center text-muted fs-6">
@@ -918,11 +931,11 @@
         </a>
       </p>
     </footer>
-    <!-- footer -->
+    <!-- end footer -->
 
-    <!-- S C R I P T S -->
+    <!-- begin scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../app.js"></script>
-    <!-- scripts -->
+    <!-- end scripts -->
   </body>
 </html>

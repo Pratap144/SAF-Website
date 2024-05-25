@@ -277,24 +277,16 @@ ul > a:hover {
   transition: box-shadow 0.25s;
 }
 
-/* A C C O R D I O N   L I N K S */
-.moduleLink::before {
+/* begin link offset */
+.targetLink::before {
   content: "";
   display: block;
-  height: 155px;
-  margin-top: -155px;
+  position: relative;
+  height: 150px;
+  margin-top: -150px;
   visibility: hidden;
 }
-/* accordion links */
-
-#members::before {
-  content: "";
-  display: block;
-  height: 100px;
-  margin-top: -100px;
-  visibility: hidden;
-  z-index: -9999;
-}
+/* end link offset */
 
 /* S C R O L L B A R */
 /* width */
