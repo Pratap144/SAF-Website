@@ -7,6 +7,8 @@ function preload() {
   preloader.style.visibility = "hidden";
 }
 
+document.body.onload = preload();
+
 const menuToggle = document.getElementById("navbarNavDropdown");
 const bsCollapse = bootstrap.Collapse.getOrCreateInstance(menuToggle, {
   toggle: false,

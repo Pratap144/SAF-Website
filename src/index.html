@@ -37,7 +37,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/aos/dist/aos.min.css"
    > -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles.css">
   <!-- end styles -->
 
   <!-- begin icons -->
@@ -47,7 +47,7 @@
   <!-- end icons -->
 </head>
 
-<body onload="preload()" class="noScroll">
+<body class="noScroll">
   <!-- begin preloader -->
   <div id="preloader" class="text-black-50" title="Loading...">
     <img src="./assets/images/hw.gif" alt="Loading...">
@@ -72,8 +72,7 @@
             <a class="nav-link mx-2" aria-current="page" href="#"> Home </a>
           </li>
           <li class="nav-item navHover dropdown">
-            <a class="nav-link dropdown-toggle mx-2" href="#" type="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle mx-2" href="#" data-bs-toggle="dropdown" aria-expanded="false">
               Programs
             </a>
             <ul class="dropdown-menu text-center">
@@ -114,8 +113,7 @@
           </li>
 
           <li class="nav-item navHover dropdown">
-            <a class="nav-link dropdown-toggle mx-2" href="#" type="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle mx-2" href="#" data-bs-toggle="dropdown" aria-expanded="false">
               More
             </a>
             <ul class="dropdown-menu text-center">
@@ -155,9 +153,9 @@
   <!-- end navbar -->
 
   <!-- begin hero -->
-  <section class="container-fluid g-0 hero-section container-scroll-1 postion-relative">
-    <video autoplay loop muted src="assets/images/SAF.mp4"></video>
-  </section>
+  <div class="container-fluid g-0 hero-section container-scroll-1 postion-relative">
+    <video autoplay loop muted src="./assets/images/SAF.mp4"></video>
+  </div>
   <!-- end hero -->
 
   <!-- begin about iiser kolkata -->
@@ -180,8 +178,8 @@
             degrees are among the best in the country and thus far have
             established a commendable culture.
           </p>
-          <a class="btn fw-semibold rounded-pill py-2 my-4 shadow yellBtn" href="https://www.iiserkol.ac.in"
-            type="button">
+          <a class="btn fw-semibold rounded-pill py-2 my-4 shadow yellBtn" target="_blank"
+            href="https://www.iiserkol.ac.in">
             Learn more
           </a>
         </div>
@@ -190,13 +188,13 @@
         <div id="aboutIISERKCarousel" class="conatiner px-3 carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner car-sh">
             <div class="carousel-item active" data-bs-interval="3000">
-              <img alt="IISER" class="d-block img-fluid" src="assets/images/iiser/1.jpeg">
+              <img alt="IISER" class="d-block img-fluid" src="./assets/images/iiser/1.jpeg">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-              <img alt="IISER" class="d-block img-fluid" src="assets/images/iiser/2.jpeg">
+              <img alt="IISER" class="d-block img-fluid" src="./assets/images/iiser/2.jpeg">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-              <img alt="IISER" class="d-block img-fluid" src="assets/images/iiser/3.jpeg">
+              <img alt="IISER" class="d-block img-fluid" src="./assets/images/iiser/3.jpeg">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#aboutIISERKCarousel"
@@ -222,13 +220,13 @@
         <div id="safCarousel" class="conatiner px-3 carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner car-sh-rev">
             <div class="carousel-item active" data-bs-interval="3000">
-              <img alt="IISER" class="d-block img-fluid" src="assets/images/lab/8.png">
+              <img alt="IISER" class="d-block img-fluid" src="./assets/images/lab/8.png">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-              <img alt="IISER" class="d-block img-fluid" src="assets/images/lab/7.png">
+              <img alt="IISER" class="d-block img-fluid" src="./assets/images/lab/7.png">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-              <img alt="IISER" class="d-block img-fluid" src="assets/images/lab/6.png">
+              <img alt="IISER" class="d-block img-fluid" src="./assets/images/lab/6.png">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#safCarousel" data-bs-slide="prev">
@@ -252,12 +250,12 @@
             Animals (CCSEA)”, a body of the Government of India. The
             “Institutional Animal Ethics Committee (IAEC)" evaluates and
             approves all the conduct of animal experiments as per CCSEA rules
-            &amp; regulations. The Animal facility, facilitates animal research of
-            immune-competence and suppressive small animals under a well
-            established "Animal Bio-Safety Level 2 (ABSL2)" state of the art
-            facility. The facility is well equipped with modern instruments as
-            per scientific standards, and houses a well trained technical
-            staff &amp; various scientific teams.
+            &amp; regulations. The Animal facility, facilitates animal
+            research of immune-competence and suppressive small animals under
+            a well established "Animal Bio-Safety Level 2 (ABSL2)" state of
+            the art facility. The facility is well equipped with modern
+            instruments as per scientific standards, and houses a well trained
+            technical staff &amp; various scientific teams.
           </p>
         </div>
       </div>
@@ -421,13 +419,15 @@
                             </b>
                             <br>
                             <b>Amount:</b> Rs. 6,000/- <br>
-                            <b>Account Number:</b>&nbsp; 913010056011865 <br>
+                            <b>Account Number:</b>&nbsp; 913010056011865
+                            <br>
                             <b>Bank Name:</b> &nbsp;AXIS Bank <br>
                             <b>Branch Name:</b>&nbsp; Kalyani <br>
                             <b>IFSC Code:</b>&nbsp; UTIB0000481 <br>
                             <b>Swift Code:</b>&nbsp; AXISINBB277 <br>
                             <b>Branch Address:</b>&nbsp; B-9/276 (CA), Near
-                            Central Park, Nadia District, West Bengal - 741235.
+                            Central Park, Nadia District, West Bengal -
+                            741235.
                           </td>
                         </tr>
                       </tbody>
@@ -435,7 +435,7 @@
                   </div>
                   <div class="modal-footer">
                     <a class="btn my-2 rounded-pill fw-semibold yellBtn" tabindex="-1"
-                      href="https://forms.gle/SypnSYAxhN6GenhbA" type="button" target="_blank">Register For Module 1</a>
+                      href="https://forms.gle/SypnSYAxhN6GenhbA" target="_blank">Register For Module 1</a>
                   </div>
                 </div>
               </div>
@@ -524,13 +524,15 @@
                             </b>
                             <br>
                             <b>Amount:</b>Rs. 8,000/- <br>
-                            <b>Account Number:</b>&nbsp; 913010056011865 <br>
+                            <b>Account Number:</b>&nbsp; 913010056011865
+                            <br>
                             <b>Bank Name:</b> &nbsp;AXIS Bank <br>
                             <b>Branch Name:</b>&nbsp; Kalyani <br>
                             <b>IFSC Code:</b>&nbsp; UTIB0000481 <br>
                             <b>Swift Code:</b>&nbsp; AXISINBB277 <br>
                             <b>Branch Address:</b>&nbsp; B-9/276 (CA), Near
-                            Central Park, Nadia District, West Bengal - 741235.
+                            Central Park, Nadia District, West Bengal -
+                            741235.
                           </td>
                         </tr>
                       </tbody>
@@ -538,7 +540,7 @@
                   </div>
                   <div class="modal-footer">
                     <a class="btn my-2 rounded-pill fw-semibold yellBtn" href="https://forms.gle/kE9ZL4SVVsiLEc2w8"
-                      tabindex="-1" type="button" target="_blank">Register For Module 2</a>
+                      tabindex="-1" target="_blank">Register For Module 2</a>
                   </div>
                 </div>
               </div>
@@ -626,13 +628,15 @@
                             </b>
                             <br>
                             <b>Amount:</b> Rs. 12,000/- <br>
-                            <b>Account Number:</b>&nbsp; 913010056011865 <br>
+                            <b>Account Number:</b>&nbsp; 913010056011865
+                            <br>
                             <b>Bank Name:</b> &nbsp;AXIS Bank <br>
                             <b>Branch Name:</b>&nbsp; Kalyani <br>
                             <b>IFSC Code:</b>&nbsp; UTIB0000481 <br>
                             <b>Swift Code:</b>&nbsp; AXISINBB277 <br>
                             <b>Branch Address:</b>&nbsp; B-9/276 (CA), Near
-                            Central Park, Nadia District, West Bengal - 741235.
+                            Central Park, Nadia District, West Bengal -
+                            741235.
                           </td>
                         </tr>
                       </tbody>
@@ -640,7 +644,7 @@
                   </div>
                   <div class="modal-footer">
                     <a class="btn my-2 rounded-pill fw-semibold yellBtn" tabindex="-1"
-                      href="https://forms.gle/8KHMPqqASgzsfPAP9" type="button" target="_blank">Register For Module 3</a>
+                      href="https://forms.gle/8KHMPqqASgzsfPAP9" target="_blank">Register For Module 3</a>
                   </div>
                 </div>
               </div>
@@ -728,13 +732,15 @@
                             </b>
                             <br>
                             <b>Amount:</b> Rs. 22,500/- <br>
-                            <b>Account Number:</b>&nbsp; 913010056011865 <br>
+                            <b>Account Number:</b>&nbsp; 913010056011865
+                            <br>
                             <b>Bank Name:</b> &nbsp;AXIS Bank <br>
                             <b>Branch Name:</b>&nbsp; Kalyani <br>
                             <b>IFSC Code:</b>&nbsp; UTIB0000481 <br>
                             <b>Swift Code:</b>&nbsp; AXISINBB277 <br>
                             <b>Branch Address:</b>&nbsp; B-9/276 (CA), Near
-                            Central Park, Nadia District, West Bengal - 741235.
+                            Central Park, Nadia District, West Bengal -
+                            741235.
                           </td>
                         </tr>
                       </tbody>
@@ -742,7 +748,7 @@
                   </div>
                   <div class="modal-footer">
                     <a class="btn my-2 rounded-pill fw-semibold yellBtn" tabindex="-1"
-                      href="https://forms.gle/HuPXBqQsTjKRNs63A" type="button" target="_blank">Register For Module 4</a>
+                      href="https://forms.gle/HuPXBqQsTjKRNs63A" target="_blank">Register For Module 4</a>
                   </div>
                 </div>
               </div>
@@ -779,7 +785,7 @@
           projects.
         </p>
 
-        <a type="button" class="btn px-4 my-2 rounded-pill fw-semibold yellBtn disabled" href="#">
+        <a class="btn px-4 my-2 rounded-pill fw-semibold yellBtn disabled" href="#">
           Click to apply&nbsp; <i class="bi bi-box-arrow-up-right"></i>
         </a>
       </div>
@@ -820,7 +826,7 @@
     </script> -->
   <!-- animate on scroll script -->
 
-  <script src="./app.js"></script>
+  <script src="./index.js"></script>
   <!-- end scripts -->
 </body>
 

@@ -2,5 +2,7 @@
 *dist.zip
 offline
 
+.vscode
+
 node_modules/
 .parcel-cache/
