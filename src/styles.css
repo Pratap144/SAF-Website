@@ -368,7 +368,7 @@ img {
 }
 
 .marquee p:hover {
-  animation-play-state: paused; /* Pauses the animation on hover */
+  animation-play-state: paused;
 }
 
 @keyframes marquee {

@@ -6,6 +6,5 @@ offline
 
 node_modules/
 .parcel-cache/
-dist
 
 test.html
