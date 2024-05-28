@@ -24,6 +24,13 @@ document.addEventListener("click", (event) => {
   }
 });
 
+// const bannerClose = document.getElementById("bannerClose");
+// const banner = document.getElementById("banner");
+
+document.getElementById("bannerClose").addEventListener("click", (e) => {
+  document.getElementById("banner").classList.add("visually-hidden");
+});
+
 // C O L O R   P I C K E R   S C R I P T
 // document
 //   .getElementById("colorPickerBtn")
@@ -91,8 +98,12 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+  if (
+    document.body.scrollTop > 1000 ||
+    document.documentElement.scrollTop > 1000
+  ) {
     mybutton.style.display = "block";
+    document.getElementById("banner").classList.remove("visually-hidden");
   } else {
     mybutton.style.display = "none";
   }
