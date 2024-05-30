@@ -1,12 +1,12 @@
 {
   "name": "saf-website",
-  "version": "0.6.5",
+  "version": "0.7.0",
   "description": "Small Animal Facility - IISER Kolkata",
   "source": "src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist",
-    "build": "npm run clean && parcel build src/index.html --no-cache --dist-dir dist --public-url ./"
+    "build": "npm run clean && parcel build src/index.html --no-cache --dist-dir dist"
   },
   "keywords": [],
   "author": "",

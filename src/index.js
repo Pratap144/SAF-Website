@@ -115,3 +115,21 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+const sideNav = document.getElementById("sideNav");
+const overview = document.getElementById("overview");
+const nav = document.getElementById("headerNav");
+const scrollThreshold = overview.offsetTop;
+const sideNavWidth = sideNav.offsetWidth;
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY > scrollThreshold) {
+    sideNav.style.position = "fixed";
+    sideNav.style.top = nav.offsetHeight + 48 + "px";
+    sideNav.style.width = sideNavWidth + "px";
+  } else {
+    sideNav.style.position = "static";
+    sideNav.style.top = "";
+    sideNav.style.width = "auto";
+  }
+});

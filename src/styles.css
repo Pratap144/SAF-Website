@@ -379,3 +379,7 @@ img {
     transform: translate(-100%, 0);
   }
 }
+
+.svg {
+  width: 90%;
+}
