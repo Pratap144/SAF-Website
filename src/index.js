@@ -5,6 +5,7 @@ function preload() {
   preloader.style.zIndex = "-99999";
   document.body.classList.remove("noScroll");
   preloader.style.visibility = "hidden";
+  preloader.children.visibility = "hidden";
 }
 
 document.body.onload = preload();

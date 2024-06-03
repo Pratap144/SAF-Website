@@ -3,6 +3,7 @@
 offline
 
 .vscode
+.htmlvalidate.json
 
 node_modules/
 .parcel-cache/
