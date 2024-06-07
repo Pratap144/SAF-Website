@@ -29,7 +29,7 @@
       property="og:description"
       content="IISER Kolkata's Animal Facility is registered by the Committee for the Purpose of Control and Supervision of Experiments on Animals (CCSEA), a body of the Government of India. This facility allows for animal research on immune-competence and suppressive small animals in a state-of-the-art Animal Bio-Safety Level 2 (ABSL2) environment."
     />
-    <meta property="og:image" content="./assets/saf.jpg" />
+    <meta property="og:image" content="./assets/saf.png" />
 
     <!-- Twitter Card -->
     <meta property="twitter:card" content="Website" />
@@ -39,7 +39,7 @@
       property="twitter:description"
       content="IISER Kolkata's Animal Facility is registered by the Committee for the Purpose of Control and Supervision of Experiments on Animals (CCSEA), a body of the Government of India. This facility allows for animal research on immune-competence and suppressive small animals in a state-of-the-art Animal Bio-Safety Level 2 (ABSL2) environment."
     />
-    <meta property="twitter:image" content="../assets/saf.jpg" />
+    <meta property="twitter:image" content="./assets/saf.png" />
     <!-- end seo -->
 
     <!-- begin styles -->
@@ -47,10 +47,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/aos/dist/aos.min.css"
-   > -->
+
     <link rel="stylesheet" href="./styles.css" />
     <!-- end styles -->
 
@@ -64,10 +61,9 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
     <!-- end icons -->
-    <!-- end icons -->
   </head>
 
-  <body class="noScroll">
+  <body class="noScroll overflow-x-hidden">
     <!-- begin preloader -->
     <div id="preloader" class="text-black-50" title="Loading...">
       <img src="./assets/images/hw.gif" alt="Loading..." />
@@ -81,11 +77,14 @@
         <div class="marquee w-100 overflow-hidden text-black">
           <p class="my-1">
             <b>
-              <a class="text-decoration-none text-black" href="#Module5">
-                <span class="badge rounded-pill text-bg-danger fa-bounce"
-                  >NEW</span
-                >
-                &nbsp; Check out Module 5 &nbsp;
+              <a
+                class="text-decoration-none text-black"
+                href="./modules.html#Module5"
+              >
+                <span class="badge rounded-pill text-bg-danger fa-bounce">
+                  NEW
+                </span>
+                Check out Module 5
               </a>
             </b>
           </p>
@@ -137,34 +136,25 @@
               </a>
               <ul class="dropdown-menu text-center">
                 <li>
-                  <a
-                    class="dropdown-item border-bottom"
-                    href="./p/modules.html"
-                  >
+                  <a class="dropdown-item border-bottom" href="./modules.html">
                     Modules
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    class="dropdown-item border-bottom"
-                    href="./p/schedule.html"
-                  >
+                  <a class="dropdown-item border-bottom" href="./schedule.html">
                     Schedule
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    class="dropdown-item border-bottom"
-                    href="./p/register.html"
-                  >
+                  <a class="dropdown-item border-bottom" href="./register.html">
                     Registration
                   </a>
                 </li>
 
                 <li>
-                  <a class="dropdown-item" href="./p/participants.html">
+                  <a class="dropdown-item" href="./participants.html">
                     Participants
                   </a>
                 </li>
@@ -172,19 +162,17 @@
             </li>
 
             <li class="nav-item navHover">
-              <a class="nav-link mx-2" href="./p/research.html">Research</a>
+              <a class="nav-link mx-2" href="./research.html">Research</a>
             </li>
 
             <li class="nav-item navHover">
-              <a class="nav-link mx-2" href="./p/services.html">Services</a>
+              <a class="nav-link mx-2" href="./services.html">
+                Services &amp; Facilities
+              </a>
             </li>
 
             <li class="nav-item navHover">
-              <a class="nav-link mx-2" href="./p/facility.html">Facility</a>
-            </li>
-
-            <li class="nav-item navHover">
-              <a class="nav-link mx-2" href="./p/contact.html">Contact</a>
+              <a class="nav-link mx-2" href="./contact.html">Contact</a>
             </li>
 
             <li class="nav-item navHover dropdown">
@@ -198,27 +186,24 @@
               </a>
               <ul class="dropdown-menu text-center">
                 <li>
-                  <a class="dropdown-item border-bottom" href="./p/sop.html">
+                  <a class="dropdown-item border-bottom" href="./sop.html">
                     SOP's
                   </a>
                 </li>
 
                 <li>
-                  <a class="dropdown-item border-bottom" href="./p/forms.html">
+                  <a class="dropdown-item border-bottom" href="./forms.html">
                     Forms
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    class="dropdown-item border-bottom"
-                    href="./p/gallery.html"
-                  >
+                  <a class="dropdown-item border-bottom" href="./gallery.html">
                     Gallery
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./p/contact.html#members">
+                  <a class="dropdown-item" href="./contact.html#members">
                     Members
                   </a>
                 </li>
@@ -236,26 +221,131 @@
     <!-- end navbar -->
 
     <!-- begin hero -->
-    <div
+
+    <!-- <div
       class="container-fluid g-0 hero-section container-scroll-1 postion-relative"
     >
       <video autoplay loop muted src="./assets/images/SAF.mp4"></video>
+    </div> -->
+
+    <div
+      id="heroCarousel"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-pause="false"
+      data-bs-interval="2500"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/images/hero/saf.png"
+            class="d-block w-100"
+            alt="SAF Collage"
+          />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/images/hero/1.png"
+            class="d-block w-100"
+            alt="image"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/images/hero/2.png"
+            class="d-block w-100"
+            alt="image"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/images/hero/3.png"
+            class="d-block w-100"
+            alt="image"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/images/hero/4.png"
+            class="d-block w-100"
+            alt="image"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/images/hero/5.png"
+            class="d-block w-100"
+            alt="image"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/images/hero/6.png"
+            class="d-block w-100"
+            alt="image"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/images/hero/7.png"
+            class="d-block w-100"
+            alt="image"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/images/hero/8.png"
+            class="d-block w-100"
+            alt="image"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="text-center fw-800 fs-4 fa-beat">
+      <a id="scrollUP" href="#scrollUP">
+        <i class="bi bi-chevron-double-down"
+          ><span class="visually-hidden">Scroll Down</span></i
+        >
+      </a>
     </div>
     <!-- end hero -->
 
-    <!-- begin about iiser kolkata -->
-    <section class="container mt-3 container-scroll-2" data-aos="fade-up">
+    <!-- begin about IISER kolkata -->
+    <section
+      id="aboutIISERK"
+      class="container mt-3 container-scroll-2"
+      data-aos="fade-up"
+    >
       <div class="row">
         <div
           class="col-lg-6 g-0 d-flex flex-column flex-wrap justify-content-center"
         >
           <div
-            class="container d-flex flex-column flex-wrap justify-content-center p-lg-5"
+            class="container d-flex flex-column flex-wrap justify-content-center p-lg-3"
           >
             <h4 class="fs-3 my-4 text-black text-center text-uppercase">
               About IISER Kolkata
             </h4>
-            <p class="justiy">
+            <p class="justify">
               The Indian Institute of Science Education Research (IISER) Kolkata
               was established in 2006 as an autonomous institute for higher
               education by the Ministry of Education, Government of India. The
@@ -272,35 +362,36 @@
               target="_blank"
               href="https://www.iiserkol.ac.in"
             >
-              Learn more
+              Learn More at IISER-K Homepage
             </a>
           </div>
         </div>
         <div
-          class="col-lg-6 g-0 d-flex flex-column my-auto ps-lg-5 p-lg-5"
+          class="col-lg-6 g-0 d-flex flex-column my-auto ps-lg-3 p-lg-3"
           data-aos="fade-up-right"
         >
           <div
             id="aboutIISERKCarousel"
             class="conatiner px-3 carousel slide"
             data-bs-ride="carousel"
+            data-bs-interval="2500"
           >
             <div class="carousel-inner car-sh">
-              <div class="carousel-item active" data-bs-interval="3000">
+              <div class="carousel-item active">
                 <img
                   alt="IISER"
                   class="d-block img-fluid"
                   src="./assets/images/iiser/1.jpeg"
                 />
               </div>
-              <div class="carousel-item" data-bs-interval="3000">
+              <div class="carousel-item">
                 <img
                   alt="IISER"
                   class="d-block img-fluid"
                   src="./assets/images/iiser/2.jpeg"
                 />
               </div>
-              <div class="carousel-item" data-bs-interval="3000">
+              <div class="carousel-item">
                 <img
                   alt="IISER"
                   class="d-block img-fluid"
@@ -308,46 +399,17 @@
                 />
               </div>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#aboutIISERKCarousel"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#aboutIISERKCarousel"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/saf.jpg"
-        class="img-fluid rounded mx-auto d-block px-5"
-        alt="SAF"
-      />
     </section>
-    <!-- end about iiser kolkata -->
+    <!-- end about IISER kolkata -->
 
     <!-- begin about saf -->
     <section class="container my-5 container-scroll-3" data-aos="fade-up">
       <div class="row d-flex flex-column-reverse flex-lg-row">
         <div
-          class="col-lg-6 g-0 d-flex flex-column my-auto ps-lg-5 p-lg-5"
+          class="col-lg-6 g-0 d-flex flex-column my-auto ps-lg-3 p-lg-3"
           data-aos="fade-up-left"
         >
           <div
@@ -408,7 +470,7 @@
           class="col-lg-6 g-0 d-flex flex-column flex-wrap justify-content-center"
         >
           <div
-            class="container d-flex flex-column justify-content-center p-lg-5"
+            class="container d-flex flex-column justify-content-center p-lg-3"
           >
             <h4 class="fs-3 my-4 text-black text-center text-uppercase">
               Animal Facility
@@ -424,11 +486,22 @@
               a well established "Animal Bio-Safety Level 2 (ABSL2)" state of
               the art facility. The facility is well equipped with modern
               instruments as per scientific standards, and houses a well trained
-              technical staff &amp; various scientific teams.
+              technical staff &amp; various scientific teams. The facility is
+              registered with the CCSEA
+              (<b>Reg.No.1385/GO/ReBi/S/10/CPCSEA</b>). Animal Facility , IISER
+              KOLKATA also provides other research opportunities in
+              collaboration with the Department of Biological Sciences IISER
+              KOLKATA such as Flow cytometry, Confocal imaging, Real Time PCR,
+              Sequencing and other high end imaging tools, advanced equipments.
             </p>
           </div>
         </div>
       </div>
+      <img
+        alt="SAF"
+        class="img-fluid rounded mx-auto d-block px-5 mt-4"
+        src="./assets/saf.png"
+      />
     </section>
     <!-- end about saf -->
 
@@ -450,9 +523,10 @@
             <th scope="row">1</th>
             <td>Mice</td>
             <td>
-              <b>Wild type strain:</b> C57BL6 and BALB/C <br />
-              <b>Knockout strain:</b> CD40L, CD40, Ifit 2 and P2NOS and Nude
-              Mice
+              <b>Wild type strain:</b> C57BL/6 and BALB/c <br />
+              <b>Knockout strain:</b> CD40L, CD40, Ifit 2 and P2NOS (in the
+              background of C57BL/6) <br />
+              <b>Nude Mice</b> (in the background of BALB/c)
             </td>
           </tr>
           <tr>
@@ -548,13 +622,13 @@
     <!-- begin about the workshop -->
     <section class="container mt-3 p-lg-5 pb-5 container-scroll-4">
       <h4 class="fs-3 my-4 text-black text-center text-uppercase">
-        About the workshop
+        Certificate course on Animal Handling &amp; Research
       </h4>
       <p class="justify">
-        Our workshop is aimed at providing hands-on training to young students
-        and researchers in “handling small animals (mice), ethics, the basics of
-        animal house management, different research methodologies for animal
-        research, and future perspectives on inter-disciplinary and
+        The certificate course is aimed at providing hands-on training to young
+        students and researchers in “handling small animals (mice), ethics, the
+        basics of animal house management, different research methodologies for
+        animal research, and future perspectives on inter-disciplinary and
         multi-disciplinary research opportunities." In addition, the workshop
         also aims to put forward an effort to minimize the gap between
         inter-disciplinary and multi-disciplinary research opportunities for the
@@ -563,559 +637,10 @@
         opportunities. Participants with a certificate of participation can add
         to their skills, which can boost their opportunities abroad for higher
         studies.
+        <a href="./modules.html">Learn more about the modules available.</a>
       </p>
     </section>
     <!-- end about the workshop -->
-
-    <!-- begin modules -->
-    <section class="container px-lg-5 pb-lg-5 container-scroll-5">
-      <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 mb-3 text-center">
-        <div class="col">
-          <div class="card mb-4 card-sh">
-            <div class="card-header py-3">
-              <h5 class="my-0 fw-bold">Module 1</h5>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title pricing-card-title">
-                ₹6,000
-                <span class="text-muted fw-light fs-6">(one-time)</span>
-              </h5>
-              <div class="mt-3 mb-2">
-                <h6 class="fw-semibold text-decoration-underline">
-                  You'll learn:
-                </h6>
-
-                <ul class="list-unstyled d-inline-block text-center">
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Euthanasia
-                  </li>
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Protein Isolation
-                  </li>
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Tissue Harvesting
-                  </li>
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Tissue Processing
-                  </li>
-                </ul>
-              </div>
-              <div class="mb-2">
-                <i>
-                  <a
-                    class="icon-link icon-link-hover"
-                    href="./p/modules.html#Module01"
-                  >
-                    more details
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </i>
-              </div>
-              <!-- <a
-                class="btn w-75 my-2 rounded-pill fw-bold yellBtn"
-                href="https://forms.gle/SypnSYAxhN6GenhbA"
-                rel="noopener noreferrer"
-                target="_blank"
-                role="button"
-              >
-                Register now
-              </a> -->
-
-              <!-- Button trigger modal -->
-              <button
-                class="btn w-75 my-2 rounded-pill fw-bold yellBtn"
-                data-bs-target="#modalModule01"
-                data-bs-toggle="modal"
-                type="button"
-              >
-                Register Now
-              </button>
-
-              <!-- Modal -->
-              <div
-                aria-hidden="true"
-                aria-labelledby="exampleModalLabel1"
-                class="modal fade"
-                id="modalModule01"
-                tabindex="-1"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel1">
-                        Pay here &amp; Register
-                        <span class="text-danger">Module 1</span>
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        tabindex="-1"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      <table>
-                        <tbody>
-                          <tr>
-                            <td class="p-4">
-                              <b class="text-decoration-underline fs-5">
-                                Bank Account Details:
-                              </b>
-                              <br />
-                              <b>Amount:</b> Rs. 6,000/- <br />
-                              <b>Account Number:</b>&nbsp; 913010056011865
-                              <br />
-                              <b>Bank Name:</b> &nbsp;AXIS Bank <br />
-                              <b>Branch Name:</b>&nbsp; Kalyani <br />
-                              <b>IFSC Code:</b>&nbsp; UTIB0000481 <br />
-                              <b>Swift Code:</b>&nbsp; AXISINBB277 <br />
-                              <b>Branch Address:</b>&nbsp; B-9/276 (CA), Near
-                              Central Park, Nadia District, West Bengal -
-                              741235.
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    <div class="modal-footer">
-                      <a
-                        class="btn my-2 rounded-pill fw-semibold yellBtn"
-                        tabindex="-1"
-                        href="https://forms.gle/SypnSYAxhN6GenhbA"
-                        target="_blank"
-                        >Register For Module 1</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-4 card-sh">
-            <div class="card-header py-3">
-              <h5 class="my-0 fw-bold">Module 2</h5>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title pricing-card-title">
-                ₹8,000
-                <span class="text-muted fw-light fs-6">(one-time)</span>
-              </h5>
-              <div class="mt-3 mb-2">
-                <h6 class="fw-semibold text-decoration-underline">
-                  You'll learn:
-                </h6>
-                <ul class="list-unstyled d-inline-block text-center">
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Tissue Molding
-                  </li>
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Histopathology
-                  </li>
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Tissue Staining
-                  </li>
-
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Tissue Sectioning
-                  </li>
-                </ul>
-              </div>
-              <div class="mb-2">
-                <i>
-                  <a
-                    class="icon-link icon-link-hover"
-                    href="./p/modules.html#Module02"
-                  >
-                    more details
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </i>
-              </div>
-              <!-- <a
-                class="btn w-75 my-2 rounded-pill fw-semibold yellBtn"
-                href="https://forms.gle/kE9ZL4SVVsiLEc2w8"
-                rel="noopener noreferrer"
-                target="_blank"
-                role="button"
-                >
-                Register now
-                </a> -->
-
-              <!-- Button trigger modal -->
-              <button
-                class="btn w-75 my-2 rounded-pill fw-bold yellBtn"
-                data-bs-target="#modalModule02"
-                data-bs-toggle="modal"
-                type="button"
-              >
-                Register Now
-              </button>
-
-              <!-- Modal -->
-              <div
-                aria-hidden="true"
-                aria-labelledby="exampleModalLabel2"
-                class="modal fade"
-                id="modalModule02"
-                tabindex="-1"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel2">
-                        Pay here &amp; Register
-                        <span class="text-danger">Module 2</span>
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        tabindex="-1"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      <table>
-                        <tbody>
-                          <tr>
-                            <td class="p-4">
-                              <b class="text-decoration-underline fs-5">
-                                Bank Account Details:
-                              </b>
-                              <br />
-                              <b>Amount:</b>Rs. 8,000/- <br />
-                              <b>Account Number:</b>&nbsp; 913010056011865
-                              <br />
-                              <b>Bank Name:</b> &nbsp;AXIS Bank <br />
-                              <b>Branch Name:</b>&nbsp; Kalyani <br />
-                              <b>IFSC Code:</b>&nbsp; UTIB0000481 <br />
-                              <b>Swift Code:</b>&nbsp; AXISINBB277 <br />
-                              <b>Branch Address:</b>&nbsp; B-9/276 (CA), Near
-                              Central Park, Nadia District, West Bengal -
-                              741235.
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    <div class="modal-footer">
-                      <a
-                        class="btn my-2 rounded-pill fw-semibold yellBtn"
-                        href="https://forms.gle/kE9ZL4SVVsiLEc2w8"
-                        tabindex="-1"
-                        target="_blank"
-                        >Register For Module 2</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-4 card-sh">
-            <div class="card-header py-3">
-              <h5 class="my-0 fw-semibold">Module 3</h5>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title pricing-card-title">
-                ₹12,000
-                <span class="text-muted fw-light fs-6">(one-time)</span>
-              </h5>
-              <div class="mt-3 mb-2">
-                <h6 class="fw-semibold text-decoration-underline">
-                  You'll learn:
-                </h6>
-                <ul class="list-unstyled d-inline-block text-center">
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Genotyping
-                  </li>
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    RNA Extraction
-                  </li>
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Flow Cytometry
-                  </li>
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    In-vivo Imaging
-                  </li>
-                </ul>
-              </div>
-              <div class="mb-2">
-                <i>
-                  <a
-                    class="icon-link icon-link-hover"
-                    href="./p/modules.html#Module03"
-                  >
-                    more details
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </i>
-              </div>
-              <!-- <a
-                class="btn w-75 my-2 rounded-pill fw-semibold yellBtn"
-                href="https://forms.gle/8KHMPqqASgzsfPAP9"
-                rel="noopener noreferrer"
-                target="_blank"
-                role="button"
-              >
-                Register now
-              </a> -->
-
-              <!-- Button trigger modal -->
-              <button
-                class="btn w-75 my-2 rounded-pill fw-bold yellBtn"
-                data-bs-target="#modalModule03"
-                data-bs-toggle="modal"
-                type="button"
-              >
-                Register Now
-              </button>
-
-              <!-- Modal -->
-              <div
-                aria-hidden="true"
-                aria-labelledby="exampleModalLabel3"
-                class="modal fade"
-                id="modalModule03"
-                tabindex="-1"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel3">
-                        Pay here &amp; Register
-                        <span class="text-danger">Module 3</span>
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        tabindex="-1"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      <table>
-                        <tbody>
-                          <tr>
-                            <td class="p-4">
-                              <b class="text-decoration-underline fs-5">
-                                Bank Account Details:
-                              </b>
-                              <br />
-                              <b>Amount:</b> Rs. 12,000/- <br />
-                              <b>Account Number:</b>&nbsp; 913010056011865
-                              <br />
-                              <b>Bank Name:</b> &nbsp;AXIS Bank <br />
-                              <b>Branch Name:</b>&nbsp; Kalyani <br />
-                              <b>IFSC Code:</b>&nbsp; UTIB0000481 <br />
-                              <b>Swift Code:</b>&nbsp; AXISINBB277 <br />
-                              <b>Branch Address:</b>&nbsp; B-9/276 (CA), Near
-                              Central Park, Nadia District, West Bengal -
-                              741235.
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    <div class="modal-footer">
-                      <a
-                        class="btn my-2 rounded-pill fw-semibold yellBtn"
-                        tabindex="-1"
-                        href="https://forms.gle/8KHMPqqASgzsfPAP9"
-                        target="_blank"
-                        >Register For Module 3</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-4 card-sh">
-            <div class="card-header py-3">
-              <h5 class="my-0 fw-semibold">Module 4</h5>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title pricing-card-title">
-                ₹22,500
-                <span class="text-muted fw-light fs-6">(one-time)</span>
-              </h5>
-              <div class="mt-3 mb-2">
-                <h6 class="fw-semibold text-decoration-underline">
-                  You'll learn:
-                </h6>
-                <ul class="list-unstyled d-inline-block text-center">
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Transfection
-                  </li>
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Drug Treatment
-                  </li>
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Cryopreservation
-                  </li>
-                  <li>
-                    <i class="bi bi-patch-check-fill text-success"></i>&nbsp;
-                    Immunofluorescence
-                  </li>
-                </ul>
-              </div>
-              <div class="mb-2">
-                <i>
-                  <a
-                    class="icon-link icon-link-hover"
-                    href="./p/modules.html#Module04"
-                  >
-                    more details
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </i>
-              </div>
-              <!-- <a
-                class="btn w-75 my-2 rounded-pill fw-semibold yellBtn"
-                href="https://forms.gle/HuPXBqQsTjKRNs63A"
-                rel="noopener noreferrer"
-                target="_blank"
-                role="button"
-              >
-                Register now
-              </a> -->
-
-              <!-- Button trigger modal -->
-              <button
-                class="btn w-75 my-2 rounded-pill fw-bold yellBtn"
-                data-bs-target="#modalModule04"
-                data-bs-toggle="modal"
-                type="button"
-              >
-                Register Now
-              </button>
-
-              <!-- Modal -->
-              <div
-                aria-hidden="true"
-                aria-labelledby="exampleModalLabel4"
-                class="modal fade"
-                id="modalModule04"
-                tabindex="-1"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel4">
-                        Pay here &amp; Register
-                        <span class="text-danger">Module 4</span>
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        tabindex="-1"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      <table>
-                        <tbody>
-                          <tr>
-                            <td class="p-4">
-                              <b class="text-decoration-underline fs-5">
-                                Bank Account Details:
-                              </b>
-                              <br />
-                              <b>Amount:</b> Rs. 22,500/- <br />
-                              <b>Account Number:</b>&nbsp; 913010056011865
-                              <br />
-                              <b>Bank Name:</b> &nbsp;AXIS Bank <br />
-                              <b>Branch Name:</b>&nbsp; Kalyani <br />
-                              <b>IFSC Code:</b>&nbsp; UTIB0000481 <br />
-                              <b>Swift Code:</b>&nbsp; AXISINBB277 <br />
-                              <b>Branch Address:</b>&nbsp; B-9/276 (CA), Near
-                              Central Park, Nadia District, West Bengal -
-                              741235.
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    <div class="modal-footer">
-                      <a
-                        class="btn my-2 rounded-pill fw-semibold yellBtn"
-                        tabindex="-1"
-                        href="https://forms.gle/HuPXBqQsTjKRNs63A"
-                        target="_blank"
-                        >Register For Module 4</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="Module5" class="card text-center card-sh">
-        <div class="card-header py-3">
-          <h5 class="my-0 fw-semibold">
-            Module 5&nbsp;
-            <span class="badge text-bg-warning fa-beat">New</span>
-          </h5>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title py-2">
-            Learn, Inspire, and Empower with IISER Kolkata Animal Facility &amp;
-            <b class="text-success">&nbsp;Bio-inspired</b>.
-          </h5>
-          <p class="card-text px-3 justify">
-            The Module 5 is currently offered jointly in collaboration with
-            IISER Kolkata Animal Facility and Bio-Inspired Innovation Pvt Ltd.
-            incubated at RISE IISER KOLKATA. This Joint initiative is going to
-            offer students a valuable entry into biological research. Led by
-            Prof. Jayasri Das Sarma, this initiative aims to enhance research
-            skills, understand ethics, and cultivate fundamental concepts. Due
-            to space constraints, the program operates through Bio-Inspired Pvt
-            Ltd. Interns delve into various subjects like Neurovirology,
-            Neuroimmunology and Neurobiology of Diseases in addition to Cancer
-            Biology, learning laboratory techniques, cell culture, molecular
-            biology, histopathology, and imaging. The duration ranges from two
-            months to a year, offering a hands-on experience akin to mini thesis
-            projects.
-          </p>
-
-          <a
-            class="btn px-4 my-2 rounded-pill fw-semibold yellBtn disabled"
-            href="#"
-          >
-            Click to apply&nbsp; <i class="bi bi-box-arrow-up-right"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-    <!-- end modules -->
 
     <!-- begin to top button -->
     <button
@@ -1132,7 +657,7 @@
     <footer class="pt-3 my-2 border-top">
       <p class="text-center text-muted mb-0">&copy; 2024 SAF IISER Kolkata</p>
       <p class="text-center text-muted fs-6">
-        Web Designed by &thinsp;
+        Web Designed by
         <a
           href="https://designdistrict.in"
           rel="noopener noreferrer"

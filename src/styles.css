@@ -64,6 +64,11 @@ body {
 .hero-section video {
   width: 100%;
 }
+
+.hero img {
+  height: 85vh;
+  object-fit: cover;
+}
 /* hero */
 
 /* C O L O R */
@@ -384,3 +389,15 @@ img {
 .svg {
   width: 90%;
 }
+
+/* table {
+  counter-reset: rowNumber;
+}
+
+table tr::before {
+  display: table-cell;
+  counter-increment: rowNumber;
+  content: counter(rowNumber) ".";
+  padding-right: 0.3em;
+  text-align: right;
+} */
