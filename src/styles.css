@@ -69,6 +69,13 @@ body {
   height: 85vh;
   object-fit: cover;
 }
+
+@media screen and (max-width: 980px) {
+  .heroCarouselImg {
+    height: 35vh;
+    object-fit: cover;
+  }
+}
 /* hero */
 
 /* C O L O R */
