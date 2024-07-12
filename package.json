@@ -1,6 +1,6 @@
 {
   "name": "saf-website",
-  "version": "0.9.1",
+  "version": "0.10.0",
   "description": "Small Animal Facility - IISER Kolkata",
   "source": "src/index.html",
   "scripts": {
