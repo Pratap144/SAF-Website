@@ -1,1 +1,12 @@
-{"mappings":"","sources":["src/content.js"],"sourcesContent":["var REGISTRATION_DATE = \"Month of August\";\r\nvar MODULE_NUMBERS = \"Module 1 - 5\";\r\nvar TENTATIVE_DATE_01 = \"For the Month of July: 5th July to 19th July, 2024\";\r\nvar TENTATIVE_DATE_02 =\r\n  \"For the Month of August: 1st August to 15th August, 2024\";\r\nvar TENTATIVE_DATE_03 =\r\n  \"For the Month of September: 4th September to 18th September, 2024\";\r\n"],"names":[],"version":3,"file":"index.d788057e.js.map"}
+{
+  "mappings": "",
+  "sources": [
+    "src/content.js"
+  ],
+  "sourcesContent": [
+    "const REGISTRATION_DATE = \"Month of August\";\r\nconst MODULE_NUMBERS = \"Module 1 - 5\";\r\nconst TENTATIVE_DATE_01 = \"For the Month of July: 5th July to 19th July, 2024\";\r\nconst TENTATIVE_DATE_02 =\r\n  \"For the Month of August: 1st August to 15th August, 2024\";\r\nconst TENTATIVE_DATE_03 =\r\n  \"For the Month of September: 4th September to 18th September, 2024\";\r\n\r\nconst MODULE_01_DAYS = \"06\";\r\nconst MODULE_02_DAYS = \"08\";\r\nconst MODULE_03_DAYS = \"10\";\r\nconst MODULE_04_DAYS = \"15\";\r\n\r\nconst MODULE_01_PRICE = \"6,000\";\r\nconst MODULE_02_PRICE = \"8,000\";\r\nconst MODULE_03_PRICE = \"12,000\";\r\nconst MODULE_04_PRICE = \"22,500\";\r\n"
+  ],
+  "names": [],
+  "version": 3,
+  "file": "content.js.map"
+}
