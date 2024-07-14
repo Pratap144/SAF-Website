@@ -80,7 +80,7 @@ body {
 
 /* C O L O R */
 .yell {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
 }
 /* color */
 
