@@ -1,12 +1,12 @@
 window.REGISTRATION_DATE =
-  "Month of August Starting From 1st August to 15th August,2024 [Last Date of Registration -31/07/2024]";
+  "Month of September --- Starting From 4th September to 18th September,2024 [Last Date of Registration - 03/09/2024]";
 window.MODULE_NUMBERS = "Module 1 - 5";
 window.TENTATIVE_DATE_01 =
-  "For the Month of September: 4th September to 18th September, 2024";
+  "For the Month of October: 17th October to 31st October, 2024";
 window.TENTATIVE_DATE_02 =
-  "For the Month of October: 3rd October to 17th October, 2024";
+  "For the Month of November: 7th November to 21st November, 2024";
 window.TENTATIVE_DATE_03 =
-  "For the Month of November: 1st November to 15th November, 2024";
+  "For the Month of December: 5th December to 19th December, 2024";
 
 window.MODULE_01_DAYS = "06";
 window.MODULE_02_DAYS = "08";
